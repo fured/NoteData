@@ -3,6 +3,7 @@ from aiohttp import web
 from table import User
 import oorm
 import os,json
+import pdb
 #import handler
 from jinja2 import Environment,FileSystemLoader
 def init_jinja2(app,**kw):
@@ -22,20 +23,7 @@ def init_jinja2(app,**kw):
 	env = Environment(loader = FileSystemLoader(path),**options)
 	filters = kw.get("filters",None)
 	app["__templating__"] = env
-'''
-@asyncio.coroutine
-def index(request):
-	print("C")
-	a = yield from User.findAll()
-	for user in a:
-		print("name:%s,email:%s,password:%s" % (user.name,user.email,user.passwd))
-#	return web.Response(body=b"<h1>Index</h1>",content_type = "text/html")
-	return {"__template__": "index.html","users": a}
-@asyncio.coroutine
-def first(request):
-	print("D")
-	return web.Response(body=b"<h1>First</h1>",content_type = "text/html")
-'''
+
 @asyncio.coroutine
 def logger_factory(app,handler):
 	@asyncio.coroutine
@@ -94,6 +82,7 @@ def AddRoute(app,module_name):
 			method = getattr(fn,"__method__",None)
 			path = getattr(fn,"__route__",None)
 			if method and path:
+#				pdb.set_trace()
 				app.router.add_route(method,path,fn)	
 
 @asyncio.coroutine
@@ -103,6 +92,7 @@ def init(loop):
 #	a = yield from User.findAll()
 #	for user in a:
 #		print("name:%s,email:%s,password:%s" % (user.name,user.email,user.passwd)) 
+	pdb.set_trace()
 	app = web.Application(loop = loop,middlewares = [logger_factory,response_factory])
 	init_jinja2(app)
 	print("2")
