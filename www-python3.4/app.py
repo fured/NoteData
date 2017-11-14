@@ -1,10 +1,10 @@
-import asyncio
+import asyncio,logging
 from aiohttp import web
 from table import User
 import oorm
 import os,json
 import pdb
-#import handler
+from handler import COOKIE_NAME,cookieuser
 from jinja2 import Environment,FileSystemLoader
 def init_jinja2(app,**kw):
 	print("init jinja2...")
@@ -28,16 +28,39 @@ def init_jinja2(app,**kw):
 def logger_factory(app,handler):
 	@asyncio.coroutine
 	def logger(request):
-		print("Request:%s %s " % (request.method,request.path))
+#		pdb.set_trace()
+		print("Request:Method:%s Path:%s URL:%s" % (request.method,request.path,request.url))
+		if request.path.startswith("/api/blog/") and len(request.path) > 20:
+			request.__blogid__ = request.path[10:]
 		return (yield from handler(request))
 	return logger
+
+@asyncio.coroutine
+def auth_factory(app,handler):
+	@asyncio.coroutine
+	def auth(request):
+#		pdb.set_trace()
+		print("check user:%s %s" % (request.method,request.path))
+		request.__user__ = None
+		cookie_str = request.cookies.get(COOKIE_NAME)
+		if cookie_str:
+			user = yield from cookieuser(cookie_str)
+			if user:
+				print("set current user:%s" % user.email)
+				request.__user__ = user
+		if request.path.startswith('/manage/') and (request.__user__ is None or not request.__user__.admin):
+			return web.HTTPFound("/signin")
+		return (yield from handler(request))
+	return auth
 
 @asyncio.coroutine
 def response_factory(app,handler):
 	@asyncio.coroutine
 	def response(request):
+#		pdb.set_trace()
 		print("Response handler...")
 		r = yield from handler(request)
+#		pdb.set_trace()
 		if isinstance(r,web.StreamResponse):
 			return r
 		if isinstance(r,bytes):
@@ -51,12 +74,14 @@ def response_factory(app,handler):
 			resp.content_type = "text/html;charset=utf-8"
 			return resp
 		if isinstance(r,dict):
+			#pdb.set_trace()
 			template = r.get("__template__")
 			if template is None:
 				resp = web.Response(body = json.dumps(r,ensure_ascii = False,default = lambda o : o.__dict__).encode("utf-8"))
 				resp.content_type = "application/json;charset=utf-8"
 				return resp
 			else:
+				r["__user__"] = request.__user__
 				resp = web.Response(body= app["__templating__"].get_template(template).render(**r).encode("utf-8"))
 				resp.content_type = "text/html;charset=utf-8"
 				return resp
@@ -92,8 +117,8 @@ def init(loop):
 #	a = yield from User.findAll()
 #	for user in a:
 #		print("name:%s,email:%s,password:%s" % (user.name,user.email,user.passwd)) 
-	pdb.set_trace()
-	app = web.Application(loop = loop,middlewares = [logger_factory,response_factory])
+#	pdb.set_trace()
+	app = web.Application(loop = loop,middlewares = [logger_factory,auth_factory,response_factory])
 	init_jinja2(app)
 	print("2")
 

@@ -287,7 +287,7 @@ $(function () {
                 var $form = $(this);
                 $form.showFormError();
                 $form.showFormLoading(true);
-                _httpJSON('POST', url, data, function (err, r) {
+                _httpJSON('GET', url, data, function (err, r) {
                     if (err) {
                         $form.showFormError(err);
                         $form.showFormLoading(false);
