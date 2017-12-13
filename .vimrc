@@ -24,10 +24,12 @@ set autoindent              "autoindent配合下面一条命令根据不同语�
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/.vim/autoload
 call vundle#begin()
 Plugin 'vim-scripts/khaki.vim'
 Plugin 'vim-scripts/DoxygenToolkit.vim'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'artur-shaik/vim-javacomplete2'
 call vundle#end()
 filetype plugin indent on
 
@@ -38,7 +40,7 @@ filetype plugin indent on
 "colorscheme khaki
 "set rtp+=~/.vim/bundle/Solarized
 "colorscheme solarized
-"==========================automatic generated comments自动生成注释====================
+"==========================automatic 补全====================
 let g:ycm_server_python_interpreter='/usr/bin/python'
 let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
 " YCM                                                              
@@ -54,3 +56,17 @@ let g:ycm_min_num_of_chars_for_completion=1
 nnoremap <leader>gl :YcmCompleter GoToDeclaration<CR>              
 nnoremap <leader>gf :YcmCompleter GoToDefinition<CR>               
 nnoremap <leader>gg :YcmCompleter GoToDefinitionElseDeclaration<CR>
+"================================java-complete=======================
+"java config 配置java自动补全
+"blog.csdn.net/wangran51/article/details/7248945
+setlocal omnifunc=javacomplete#Complete
+autocmd FileType java set omnifunc=javacomplete#Complete   
+"自动补全
+autocmd FileType java set completefunc=javacomplete#CompleteParamsInf
+"参数提醒
+"inoremap <buffer><C-X><C-U> <C-X><C-U><C-P>
+inoremap <buffer><C-S-Space> <C-X><C-U><C-P>
+
+autocmd FileType java,javascript,jsp inoremap <buffer>. .<C-X><C-O><C-P>
+"Ctrl+X Ctrl+U 提示功能
+"autocmd FileType java set omnifunc=javacomplete#Complete
