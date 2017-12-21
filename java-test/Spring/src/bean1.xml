@@ -2,10 +2,22 @@
 <beans xmlns = "http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!--开启注解扫描 -->
+	<context:component-scan base-package="com"></context:component-scan>
 	<bean id="user" class="com.ioc.User">
 	</bean>
-		<bean id="demo1" class="com.ioc.Demo1">
-			 <constructor-arg index="0"  value="Demo1"></constructor-arg> 
-			<!--		<property name="demoName" value="Demo1"></property>-->
-			</bean> 
+	<!--构造方法注入 -->
+	<bean id="demo1" class="com.ioc.Demo1">
+		<constructor-arg index="0"  value="Demo1"></constructor-arg> 
+	</bean>
+	<!--set方法注入 -->
+	<bean id="demo2" class="com.ioc.Demo2">
+		<property name="Demoname" value="fured"></property>
+	</bean>	
+	<!--set方法注入对象类型的属性 -->
+	<bean id="userDao" class="com.ioc.UserDaoImpl">
+	</bean>
+	<bean id="userService" class="com.ioc.UserService">
+		<property name="userDao" ref="userDao"></property>
+	</bean>
 </beans>
