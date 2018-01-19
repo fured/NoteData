@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include "modbus.h"
+#include <modbus.h>
 
 int main(void)
 {
@@ -19,10 +19,10 @@ int main(void)
 //	while(1){	
 //		modbus_write_register(mb,87,2);
 		//sleep(3);
-		int regs = modbus_read_registers(mb,86,1,tab_reg);	
+		int regs = modbus_read_registers(mb,0,1,tab_reg);	
 		
 		printf("number:%d,%d\n",regs,tab_reg[0]);
-//		sleep(5);
+//		sleep(5);	
 //	}
 	modbus_close(mb);
 	modbus_free(mb);
