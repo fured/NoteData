@@ -1,0 +1,2394 @@
+Wed, 17 Jan 2018 19:25:48 udp_br_cl.py[line:64] INFO Start listening in '3333' port....
+Wed, 17 Jan 2018 19:25:48 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 19:25:48 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 19:25:57 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 19:25:57 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 19:26:06 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 19:26:06 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 19:26:15 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 19:26:15 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 19:26:24 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 19:26:24 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 19:26:30 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:26:33 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:26:36 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:26:39 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:26:42 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:26:45 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:26:48 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:26:51 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:26:54 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:26:57 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:27:00 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:27:03 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:27:06 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:27:09 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:27:12 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:27:15 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:27:18 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:27:21 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:27:24 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:27:27 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:27:30 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:27:33 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:27:36 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:27:39 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:27:42 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:27:45 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:27:48 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:27:51 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:27:54 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:27:57 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:28:00 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:28:03 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:28:06 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:28:09 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:28:12 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:28:15 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:28:18 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:28:21 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:28:24 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:28:27 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:28:30 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:28:33 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:28:36 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:28:39 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:28:42 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:28:46 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:28:49 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:28:52 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:28:55 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:28:58 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:29:01 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:29:04 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:29:07 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:29:10 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:29:13 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:29:16 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:29:19 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:29:22 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:29:25 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:29:28 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:29:31 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:29:34 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:29:37 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:29:40 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:29:43 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:29:46 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:29:49 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:29:52 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:29:55 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:29:58 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:30:01 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:30:04 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:30:07 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:30:10 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:30:13 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:30:16 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:30:19 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:30:22 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:30:25 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:30:28 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:30:31 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:30:34 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:30:37 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:30:40 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:30:43 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:30:46 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:30:49 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:30:52 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:30:55 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:30:58 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:31:01 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:33:32 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:
+Wed, 17 Jan 2018 19:33:35 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:33:38 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:33:41 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:33:44 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:33:47 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:33:50 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:33:53 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:33:56 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:33:59 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:34:02 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:34:05 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:34:08 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:34:11 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:34:14 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:34:17 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:34:20 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:34:23 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:34:26 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:34:29 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:34:32 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:34:35 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:34:38 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:34:41 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:34:45 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:34:48 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:34:51 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:34:54 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:34:57 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:35:00 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:35:03 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:35:06 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:35:09 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:35:12 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:35:15 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:35:18 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:35:21 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:35:24 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:35:27 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:35:30 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:35:33 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:35:36 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:35:39 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:35:42 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:35:45 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:35:48 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:35:51 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:35:54 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:35:57 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:36:00 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:36:03 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:36:06 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:36:09 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:36:12 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:36:15 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:36:18 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:36:21 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:36:24 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:36:27 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:36:30 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:36:33 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:36:36 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:36:39 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:36:42 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:36:45 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:36:48 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:36:51 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:36:54 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:36:57 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:37:00 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:37:03 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:37:06 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:37:09 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:37:12 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:37:15 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:37:19 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:37:22 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:37:25 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:37:28 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:37:31 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:37:34 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:37:37 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:37:40 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:37:43 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:37:46 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:37:49 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:37:52 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:37:55 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:37:58 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:38:01 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:38:04 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:38:07 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:38:10 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:38:13 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:38:16 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:38:19 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:38:22 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:38:25 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:38:28 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:38:31 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:38:34 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:38:37 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:38:40 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:38:43 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:38:46 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:38:49 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:38:52 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:38:55 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:38:58 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:39:01 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:39:04 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:39:07 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:39:10 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:39:13 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:39:16 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:39:19 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:39:22 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:39:25 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:39:28 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:39:31 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:39:34 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:39:37 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:39:40 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:39:43 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:39:46 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:39:49 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:39:52 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:39:56 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:39:59 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:40:02 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:40:05 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:40:08 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:40:11 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:40:14 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:40:17 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:40:20 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:40:23 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:40:26 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:40:29 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:40:32 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:40:35 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:40:38 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:40:41 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:40:44 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:40:47 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:40:50 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:40:53 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:40:56 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:40:59 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:41:02 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:41:05 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:41:08 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:41:11 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:41:14 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:41:17 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:41:20 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:41:23 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:41:26 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:41:29 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:41:32 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:41:35 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:41:38 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:41:41 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:41:44 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:41:47 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:41:50 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:41:53 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:41:56 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:41:59 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:42:02 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:42:05 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:42:08 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:42:11 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:42:14 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:42:17 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:42:20 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:42:23 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:42:26 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:42:30 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:42:33 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:42:36 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:42:39 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:42:42 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:42:45 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:42:48 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:42:51 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:42:54 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:42:57 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:43:00 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:43:03 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:43:06 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:43:09 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:43:12 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:43:15 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:43:18 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:43:21 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:43:24 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:43:27 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:43:30 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:43:33 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:43:36 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:43:39 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:43:42 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:43:45 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:43:48 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:43:51 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:43:54 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:43:57 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:44:00 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:44:03 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:44:06 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:44:09 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:44:12 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:44:15 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:44:18 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:44:21 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:44:24 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:44:27 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:44:30 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:44:33 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:44:36 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:44:39 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:44:42 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:44:45 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:44:48 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:44:51 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:44:54 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:44:57 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:45:00 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:45:04 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:45:07 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:45:10 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:45:13 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:45:16 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:45:19 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:45:22 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:45:25 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:45:28 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:45:31 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:45:34 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:45:37 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:45:40 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:45:43 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:45:46 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:45:49 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:45:52 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:45:55 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:45:58 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:46:01 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:46:04 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:46:07 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:46:10 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:46:13 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:46:16 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:46:19 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:46:22 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:46:25 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:46:28 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:46:31 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:46:34 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:46:37 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:46:40 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:46:43 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:46:46 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:46:49 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:46:52 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:46:55 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:46:58 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:47:01 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:47:04 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:47:07 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:47:10 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:47:13 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:47:16 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:47:19 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:47:22 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:47:25 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:47:28 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:47:31 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:47:34 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:47:38 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:47:41 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:47:44 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:47:47 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:47:50 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:47:53 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:47:56 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:47:59 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:48:02 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:48:05 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:48:08 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:48:11 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:48:14 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:48:17 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:48:20 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:48:23 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:48:26 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:48:29 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:48:32 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:48:35 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:48:38 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:48:41 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:48:44 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:48:47 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:48:50 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:48:53 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:48:56 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:48:59 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:49:02 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:49:05 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:49:08 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:49:11 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:49:14 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:49:17 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:49:20 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:49:23 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:49:26 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:49:29 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:49:32 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:49:35 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:49:38 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:49:41 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:49:44 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:49:47 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:49:50 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:49:53 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:49:56 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:49:59 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:50:02 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:50:05 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:50:08 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:50:12 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:50:15 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:50:18 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:50:21 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:50:24 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:50:27 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:50:30 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:50:33 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:50:36 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:50:39 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:50:42 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:50:45 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:50:48 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:50:51 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:50:54 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:50:57 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:51:00 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:51:03 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:51:06 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:51:09 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:51:12 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:51:15 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:51:18 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:51:21 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:51:24 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:51:27 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:51:30 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:51:33 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:51:36 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:51:39 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:51:42 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:51:45 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:51:48 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:51:51 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:51:54 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:51:57 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:52:00 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:52:03 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:52:06 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:52:09 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:52:12 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:52:15 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:52:18 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:52:21 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:52:24 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:52:27 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:52:30 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:52:33 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:52:36 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:52:39 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:52:42 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:52:46 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:52:49 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:52:52 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:52:55 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:52:58 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:53:01 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:53:04 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:53:07 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:53:10 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:53:13 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:53:16 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:53:19 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:53:22 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:53:25 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:53:28 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:53:31 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:53:34 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:53:37 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:53:40 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:53:43 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:53:46 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:53:49 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:53:52 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:53:55 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:53:58 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:54:01 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:54:04 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:54:07 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:54:10 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:54:13 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:54:16 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:54:19 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:54:22 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:54:25 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:54:28 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:54:31 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:54:34 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:54:37 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:54:40 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:54:43 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:54:46 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:54:49 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:54:52 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:54:55 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:54:58 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:55:01 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:55:04 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:55:07 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:55:10 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:55:13 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:55:16 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:55:20 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:55:23 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:55:26 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:55:29 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:55:32 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:55:35 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:55:38 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:55:41 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:55:44 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:55:47 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:55:50 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:55:53 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:55:56 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:55:59 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:56:02 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:56:05 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:56:08 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:56:11 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:56:14 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:56:17 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:56:20 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:56:23 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:56:26 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:56:29 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:56:32 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:56:35 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:56:38 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:56:41 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:56:44 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:56:47 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:56:50 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:56:53 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:56:56 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:56:59 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:57:02 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:57:05 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:57:08 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:57:11 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:57:14 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:57:17 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:57:20 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:57:23 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:57:26 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:57:29 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:57:32 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:57:35 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:57:38 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:57:41 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:57:44 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:57:47 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:57:50 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:57:54 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:57:57 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:58:00 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:58:03 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:58:06 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:58:09 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:58:12 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:58:15 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:58:18 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:58:21 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:58:24 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:58:27 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:58:30 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:58:33 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:58:36 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:58:39 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:58:42 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:58:45 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:58:48 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:58:51 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:58:54 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:58:57 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:59:00 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:59:03 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:59:06 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:59:09 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:59:12 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:59:15 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:59:18 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:59:21 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:59:24 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:59:27 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:59:30 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:59:33 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:59:36 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:59:39 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:59:42 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:59:45 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:59:48 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:59:51 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:59:54 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 19:59:57 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:00:00 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:00:03 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:00:06 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:00:09 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:00:12 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:00:15 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:00:18 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:00:21 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:00:25 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:00:28 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:00:31 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:00:34 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:00:37 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:00:40 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:00:43 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:00:46 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:00:49 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:00:52 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:00:55 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:00:58 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:01:01 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:01:04 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:01:07 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:01:10 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:01:13 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:01:16 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:01:19 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:01:22 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:01:25 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:01:28 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:01:31 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:01:34 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:01:37 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:01:40 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:01:43 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:01:46 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:01:49 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:01:52 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:01:55 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:01:58 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:02:01 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:02:04 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:02:07 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:02:10 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:02:13 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:02:16 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:02:19 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:02:22 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:02:25 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:02:28 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:02:31 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:02:34 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:02:37 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:02:40 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:02:43 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:02:46 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:02:49 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.1.101
+ ESSID:"arm_test"  
+
+Wed, 17 Jan 2018 20:02:52 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:02:52 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:02:55 udp_br_cl.py[line:115] DEBUG [wifi]Set wifi:uuid is 'iconnect-ams-712'  password is '12345678'
+Wed, 17 Jan 2018 20:03:02 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:03:08 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:03:11 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:03:14 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:03:17 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:03:20 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:03:23 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:03:26 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:03:29 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:03:32 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:03:35 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:03:39 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:03:42 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:03:45 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:03:48 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:03:51 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:03:54 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:03:57 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:04:00 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:04:03 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:04:06 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:04:09 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:04:12 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:04:15 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:04:18 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:04:21 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:04:24 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:04:27 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:04:30 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:04:33 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:04:36 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:04:39 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:04:42 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:04:45 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:04:48 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:04:51 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:04:54 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:04:57 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:05:00 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:05:03 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:05:06 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:05:09 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:05:12 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:05:15 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:05:18 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:05:21 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:05:24 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:05:27 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:05:30 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:05:33 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:05:36 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:05:39 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:05:42 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:05:45 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:05:48 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:05:51 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:05:54 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:05:57 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:06:00 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:06:03 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:06:06 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:06:09 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:06:13 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:06:16 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:06:19 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:06:22 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:06:25 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:06:28 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:06:31 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:06:34 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:06:37 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:06:40 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:06:43 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:06:46 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:06:49 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:06:52 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:06:55 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:06:58 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:07:01 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:07:04 udp_br_cl.py[line:136] INFO [wifi]Current exist wlan:addr:192.168.43.208
+ ESSID:"iconnect-ams-712"  
+
+Wed, 17 Jan 2018 20:07:07 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:07:07 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:07:13 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:07:13 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:07:22 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:07:22 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:07:31 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:07:31 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:07:40 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:07:40 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:07:49 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:07:49 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:07:58 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:07:58 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:08:07 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:08:07 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:08:16 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:08:16 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:08:25 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:08:25 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:08:34 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:08:34 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:08:43 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:08:43 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:08:52 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:08:52 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:09:01 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:09:01 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:09:10 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:09:10 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:09:19 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:09:19 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:09:28 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:09:28 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:09:37 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:09:37 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:09:46 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:09:46 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:09:55 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:09:55 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:10:04 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:10:04 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:10:13 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:10:13 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:10:22 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:10:22 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:10:31 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:10:31 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:10:40 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:10:40 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:10:49 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:10:49 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:10:58 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:10:58 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:11:07 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:11:07 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:11:16 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:11:16 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:11:25 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:11:25 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:11:34 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:11:34 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:11:43 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:11:43 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:11:52 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:11:52 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:12:01 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:12:01 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:12:10 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:12:10 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:12:19 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:12:19 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:12:28 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:12:28 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:12:37 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:12:37 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:12:46 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:12:46 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:12:55 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:12:55 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:13:04 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:13:04 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:13:13 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:13:13 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:13:22 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:13:22 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:13:32 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:13:32 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:13:41 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:13:41 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:13:50 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:13:50 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:13:59 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:13:59 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:14:08 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:14:08 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:14:16 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:14:16 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:14:25 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:14:25 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:14:34 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:14:34 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:14:43 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:14:43 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:14:52 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:14:52 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:15:01 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:15:01 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:15:10 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:15:10 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:15:19 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:15:19 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:15:28 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:15:28 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:15:37 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:15:37 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+Wed, 17 Jan 2018 20:15:46 udp_br_cl.py[line:128] INFO [wifi]Current exist wlan:False
+Wed, 17 Jan 2018 20:15:46 udp_br_cl.py[line:105] INFO Scan and Set wifi ....
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
