@@ -125,7 +125,7 @@ def check_wifi():
     status_file.close()
     if "Not-Associated" in status:
         logging.info("[wifi]Current exist wlan:False")
-        return Null
+        return None
     else:
         addr  = os.popen("ifconfig wlan0 | grep 'inet addr' | cut -d ':' -f 2 | awk '{print $1}'")
         ssid = os.popen("iwconfig wlan0 |grep 'ESSID' | cut -d ':' -f 2")
@@ -153,8 +153,6 @@ def scan_wifi():
                 logging.debug("[wifi]discover wifi:%s" % ssid)
                 iconnect-ams-hotspots.append(ssid)
       
-    return Null
-
 def wifi_thread():
     global DaemonStatus
     print DaemonStatus
@@ -180,11 +178,11 @@ def wifi_thread():
 
         ssid = check_wifi()
         
-        if ssid == none:
+        if ssid == None:
             if DaemonStatus == 'S1':
                 CurrentIconnectHotspotIndex=0
                 scan_wifi();
-                if len(iconnect-ams-hotspots) == 0:
+                if len(iconnect_ams_hotspots) == 0:
                     DaemonStatus='S3'
                 else:
                     DaemonStatus='S2'
@@ -198,7 +196,17 @@ def wifi_thread():
                 continue
         
             if DaemonStatus =='S3':
-                set_wifi(configured_ssid, configured_password)
+                configured_ssid = read_config_file()['ssid/password']['ssid']
+                configured_password = read_config_file()['ssid/password']['password']
+                os.system('./wifi_scan.sh')
+                fd = open('/tmp/ssids')
+                if configured_ssid and configured_password not None:
+                    for line in fd:
+                        ssid = line.strip().replace('\n','')
+                        if ssid == configured_ssid:
+                            set_wifi(configured_ssid, configured_password)
+                else:
+                    logging.info('this wifi not exist:%s' % configured_ssid)
                 DaemonStatus='S1'
                 continue
         elif ssid.startswith('iconnect-ams-'):  #to change it as match
@@ -264,4 +272,3 @@ if __name__ == '__main__':
         exit()
     t1 = threading.Thread(target=wifi_thread)
     t1.start()
-
