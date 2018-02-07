@@ -9,7 +9,7 @@ killall -9 wpa_supplicant
 rfkill unblock all
 ifdown wlan0
 ifup wlan0
-udhcpc -i wlan0
+udhcpc -i wlan0 -n
 
 
 
