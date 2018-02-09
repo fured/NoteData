@@ -1,5 +1,5 @@
 #!/bin/python
-import socket,pdb,logging,multiprocessing
+import socket,pdb,logging
 import threading
 import time
 import json
@@ -7,14 +7,14 @@ import os
 import sys
 
 ################################################################################
-
+#record wifi daemon status
 global DaemonStatus
 DaemonStatus = 'S1'
+#record all hot spots of compliance
 global iconnect_ams_hotspots
 iconnect_ams_hotspots = [] 
 
 class Beacon:
-
     __slots__ = '__sock', '__addr'
 
     def __init__(self, port):
@@ -35,8 +35,6 @@ class Beacon:
 
     def send(self, data,addr):
         "Send a broadcast through the underlying socket."
-        #assert self.__sock.sendto(data, addr) == len(data), \
-         #      'Not all data was sent through the socket!'
         self.__sock.sendto(data,addr)    
     def gettimeout(self):
         return self.__sock.gettimeout()
@@ -91,7 +89,6 @@ def listen_commands(b, timeout):
         del b
         return False
             
-            
 ################################################################################
 #according to ssid and password ,set wifi
 def set_wifi(ssid,password):
@@ -125,7 +122,7 @@ def check_wifi():
         return SSID
 
 ############################################################################   
-# scan iconnect-ams hotspot and store ssid into a global arrary
+# scan hotspot and according to demand return result
 def scan_wifi(use_sign,*ssid):
     while True:
         os.system('./wifi_scan.sh 2>/tmp/ssids')
@@ -137,6 +134,7 @@ def scan_wifi(use_sign,*ssid):
             fd.close()
             break
     fd= open('/tmp/ssids')
+    #arrording to scan result to find hot pots of compliance
     if use_sign == 'find_hotspot':
         global iconnect_ams_hotspots 
         iconnect_ams_hotspots = []
@@ -149,6 +147,7 @@ def scan_wifi(use_sign,*ssid):
                 if check == 10:
                     logging.debug("[scan wifi]discover wifi:%s" % ssid)
                     iconnect_ams_hotspots.append(ssid)
+    #judge wifi profile provide ssid exist or not exist
     elif use_sign == 'decide_wifi_config_file':
         if ssid[0] != '' or ssid[1] != '':
             exist_ssid = False
@@ -165,6 +164,7 @@ def scan_wifi(use_sign,*ssid):
         else:
             fd.close()
             return False
+    #judge received wifi ssid exist or not exist
     elif use_sign == 'decide_received_wifi_information':
         wifi_ssid = ssid[0]
         for line in fd:
@@ -185,12 +185,12 @@ def wifi_thread():
     while True:
         # step 1: load the config file
         wifi_setup = read_config_file()
-        # step 2: 
+        # step 2: judge whether to start wifi daemon
         if wifi_setup['suspend_daemon'] == 1:
             logging.info('[wifi thread]wifi set daemon not start!')
             time.sleep(60)
             continue
-
+        
         if wifi_setup['disable'] == 'Yes' or wifi_setup['disable'] == 'yes':
             # to disable wifi here
             os.system('ifconfig wlan0 down')
@@ -198,9 +198,9 @@ def wifi_thread():
             time.sleep(60)
             continue
 
-
         ssid = check_wifi()
         if ssid == None:
+            #scan iconnect-ams- hot pots
             if DaemonStatus == 'S1':
                 CurrentIconnectHotspotIndex=0
                 scan_wifi('find_hotspot')
@@ -210,6 +210,7 @@ def wifi_thread():
                     DaemonStatus='S2'
                 continue
             
+            #try to connect iconnect-ams hot pots
             if DaemonStatus == 'S2':
                 if CurrentIconnectHotspotIndex < len(iconnect_ams_hotspots):
                     if set_wifi(iconnect_ams_hotspots[CurrentIconnectHotspotIndex],'12345678'):
@@ -222,6 +223,7 @@ def wifi_thread():
                     DaemonStatus = 'S3'
                     continue
 
+            #try to connect wifi according to user configure 
             if DaemonStatus =='S3':
                 configured_ssid = read_config_file()['ssid/password']['ssid']
                 configured_password = read_config_file()['ssid/password']['password']
@@ -230,16 +232,18 @@ def wifi_thread():
                 DaemonStatus='S1'
                 continue
         else:
+            #start lister port for received udp data packet
             port = wifi_setup['port']
             b = Beacon(port)
             logging.info("start listen on %s..." %port )
-            if listen_commands(b, 10):
+            if listen_commands(b, 30):
                 logging.info('Received udp packet !')
                 continue
             else:
                 logging.info('Not received udp packet or set wifi failed!')
                 DaemonStatus='S3'
                 continue
+
 ################################################################################
 #read config file of wifi
 def read_config_file():
