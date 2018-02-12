@@ -1,0 +1,68 @@
+.moive_share{
+}
+.moive_share h2{
+	color:#fff;
+	float:left;
+	width:100%;
+	font-size:24px;
+	font-weight:400;
+	text-align:center;
+	padding:50px 0 40px;
+	position:relative;
+	padding-botton:10px;
+}
+.moive_share h2 span{
+	position:relative;
+	padding-botton:10px;
+}
+.moive_share h2 span:after{
+	content:"";
+	width:50%;
+	height:3px;
+	background-color:#fff;
+	position:absolute;
+	left:25%;
+	bottom:0;
+}
+.moive_share img{
+	max-width:100%;
+	vertical-align:middle;
+}
+.moive_share .full-length{width: 100%; float: left; padding-bottom: 80px;}
+.moive_share ul{margin: 0 -1.5%;}
+.moive_share li{float: left; width: 31.33%; margin: 10px 1%; list-style: none;}
+
+.moive_share h3{font-size: 20px; margin: 5px 0 10px;}
+.moive_share p{font-weight: 300; line-height: 20px; font-size: 14px; margin-bottom: 15px;}
+.btn{display: inline-block; padding: 5px 10px; font-size: 14px; color: #fff; border: 2px solid #4d92d9; background-color: #4d92d9; text-decoration: none; transition: 0.4s;}
+.moive_share .btn:hover{background-color: transparent; color: #4d92d9; transition: 0.4s;}
+.moive_share .text-desc{position: absolute; left: 0; top: 0; background-color: #fff; height: 100%; opacity: 0; width: 100%; padding: 20px;}
+
+.moive_share .port-2{float: left; width: 100%; position: relative; overflow: hidden; text-align: center; border: 4px solid rgba(255, 255, 255, 0.9); perspective: 800px;}
+.moive_share .port-2 .text-desc{z-index: -1; transition: 0.6s;}
+.moive_share .port-2 .image-box{transition: 0.4s;}
+.moive_share .port-2:hover .image-box{transform: rotateX(80deg); transform-origin: center bottom 0; transition: 0.4s;}
+
+.moive_share .port-2.effect-1:hover .text-desc{opacity: 1;}
+
+.moive_share .port-2.effect-2 .text-desc{opacity: 1; top: -100%;}
+.moive_share .port-2.effect-2:hover .text-desc{top: 0;}
+
+.moive_share .port-2.effect-3 .text-desc{opacity: 1; top: auto; bottom: -100%;}
+.moive_share .port-2.effect-3:hover .text-desc{bottom: 0;}
+
+/*= Media Screen CSS
+==================== */
+@media only screen and (max-width: 1090px){
+	.moive_share ul{width: 340px; margin: 0 auto;}
+	.moive_share li{width: 100%; margin: 20px 0;}
+	.moive_share .port-5.effect-1 {z-index: 19;}
+}
+
+@media only screen and (max-width: 360px){
+	.moive_share ul{width: 300px;}
+	.moive_share .port-1 .text-desc, 
+	.moive_share .port-1.effect-3:hover .text-desc, 
+}
+/*= Media Screen CSS End
+======================== */
