@@ -21,5 +21,6 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$',fured_views.index),
+    url(r'^music_player/play_list',fured_views.playlist)
 ]
 urlpatterns += staticfiles_urlpatterns()

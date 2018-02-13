@@ -1,25 +1,33 @@
 // JavaScript Document
 var currentIndex = 0;
-var mlist = ["http://qzone.haoduoge.com/music2/Meghan Trainor - All About That Bass.mp3","http://sc1.111ttt.com/2014/1/11/11/4111319506.mp3","http://qzone.haoduoge.com/music2/2014-12-13/1418401256.mp3","http://qzone.haoduoge.com/music2/2014-10-03/1412280314.mp3","http://qzone.haoduoge.com/music2/2014-11-29/1417258107.mp3"];
+//var mlist = ["/static/music/BeginAgain.mp3","/static/music/Red.mp3","/static/music/StayStayStay.mp3","/static/music/Starlight.mp3"];
+var mlist = [];
 var audio = document.getElementById('audio');
-var progress = document.getElementById('progress_music');
+var progress = document.getElementById('progress');
 var playpause = document.getElementById("play-pause");
 var volume = document.getElementById("volume");
+var music_menu = document.getElementById('music_menu');
 
 audio.controls = false;
 
 audio.addEventListener('timeupdate', function() {
   	updateProgress();
 }, false);
+audio.addEventListener('ended',function(){
+	slt();
+	audio.play();
+},false);
 
 function togglePlayPause() {
    if (audio.paused || audio.ended) {
       playpause.title = "暂停";
       playpause.className = "begin";
+	  music_menu.className = "start";
       audio.play();
    } else {
       playpause.title = "播放";
       playpause.className = "stop";
+	  music_menu.className = "menu";
       audio.pause();
    }
 }
@@ -31,7 +39,7 @@ function setVolume() {
 function updateProgress() {
 	var percent = Math.floor((100 / audio.duration) * audio.currentTime);
 	progress.value = percent;
-	var canvas = document.getElementById('progress_music');
+	var canvas = document.getElementById('progress');
 	var context = canvas.getContext('2d');
 	var centerX = canvas.width / 2;
 	var centerY = canvas.height / 2;
@@ -44,7 +52,11 @@ function updateProgress() {
 	context.lineWidth = 5;
 	context.strokeStyle = '#38ffb8';
 	context.stroke();
-	if (audio.ended) resetPlayer();
+	if (audio.ended){
+    	audio.currentTime = 0; 
+		context.clearRect(0,0,canvas.width,canvas.height);
+	    playpause.title = "Play";
+	}
 }
 
 function resetPlayer() {
@@ -58,27 +70,26 @@ function resetPlayer() {
 //	}
 
 window.onload=function(){ 
-	slt();
+	var url = "../music_player/play_list"
+	var request = new XMLHttpRequest();
+	request.onload = function () {
+		if (request.status == 200){
+			//alert("success!")
+			//console.log("success!")
+			mlist = request.responseText.split(":");
+			slt();
+		}
+	};
+	request.open("GET",url)
+	request.send(null)
 //	num();
 }
 
 function slt(){
-	var tBn=document.getElementsByClassName("lt");
-	var div=document.getElementsByTagName("div");
-	
-	var i;
-	for(i=0;i<tBn.length;i++){
-		tBn[i].index=i;//为每个按钮都建立索引
-		tBn[i].onclick=function(){//为每个按钮注册单击事件
-		for(i=0;i<tBn.length;i++){
-			tBn[i].setAttribute("class","lt");//js中凡是出现class的地方都用className代替
-		}
-		this.setAttribute("class","lt act");//this代表当前发生事件的元素
-			currentIndex = (this.getAttribute("index"));
-			audio.src = mlist[currentIndex];
-			audio.play();
-//			sel();
-		};
+	audio.src = mlist[currentIndex];
+	currentIndex = currentIndex + 1;
+	if (currentIndex >= mlist.length) {
+		currentIndex = 0;
 	}
 };
 
