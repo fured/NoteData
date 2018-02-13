@@ -6,7 +6,7 @@
 
 <html class="no-js"> <!--<![endif]-->
     <head>
-        <title>slowlife</title>
+		<title>Slowlife</title>
 
         <!-- meta -->
         <meta charset="utf-8">
@@ -28,14 +28,11 @@
         <link href='http://fonts.useso.com/css?family=Dosis:200,300,400,500|Lato:300,400,700,900,300italic,400italic,700italic,900italic|Raleway:400,200,300,500,100|Titillium+Web:400,200,300italic,300,200italic' rel='stylesheet' type='text/css'>
 		-->
         <script src="/static/js/modernizr.js"></script>
-		<script src="/static/js/fn.js"></script>
-
     </head>
     <body id="body">
         <!--[if lt IE 7]>
                 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
         <!-- Header area -->
         <header id="header">
             <div class="center text-center">
@@ -145,7 +142,7 @@
 <div class="music_player">
 
 <div class="head">
-	<i class="menu"></i>
+	<i id="music_menu" class="menu"></i>
 	<p>Recommend by Fured</p>
     <p class="sml">January 2018</p>
 </div>
@@ -160,7 +157,7 @@
         	<img src="/static/images/head.png">
             <i id="play-pause" onclick="togglePlayPause()" class="stop"></i>
         </div>
-		<p hidden> audio id="audio" controls></audio></p>
+		<audio id="audio" controls></audio>
     </div>
     <div class="play-rt">
     	<i class="rt"></i>
@@ -459,7 +456,10 @@
 						<!--
                         <p class="designed">Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
 						-->
-						<p class="designed"><button href="#" class="button">chinese</button></p>
+						<p class="designed">
+							<a href="#" class="button">chinese</a>
+							<a href="/admin" class="button" target="_Blank">Admin login</a>
+						</p>
 						</div>
                 </div>
             </div>
@@ -473,7 +473,7 @@
         <script src="/static/js/smooth-scroll.js"></script>
         <script src="/static/js/owl.carousel.js"></script>
         <script src="/static/js/script.js"></script>
-
+		<script type="text/javascript" src="/static/js/fn.js"></script>
     </body>
 </html>
 
