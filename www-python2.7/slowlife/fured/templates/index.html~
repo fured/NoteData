@@ -28,6 +28,8 @@
         <link href='http://fonts.useso.com/css?family=Dosis:200,300,400,500|Lato:300,400,700,900,300italic,400italic,700italic,900italic|Raleway:400,200,300,500,100|Titillium+Web:400,200,300italic,300,200italic' rel='stylesheet' type='text/css'>
 		-->
         <script src="/static/js/modernizr.js"></script>
+	<script src="/static/js/jquery.min.js"></script>
+        <script src="/static/js/vue.min.js"></script>
     </head>
     <body id="body">
         <!--[if lt IE 7]>
@@ -98,27 +100,73 @@
                             <strong>Nur Ul Hossain</strong>
                             <br>
 							<small>Project Manager</small>-->
+<script>
 
+function validateEmail(email) {
+    var re = /^[a-z0-9\.\-\_]+\@[a-z0-9\-\_]+(\.[a-z0-9\-\_]+){1,4}$/;
+    return re.test(email.toLowerCase());
+}
 
-							<form id="remmend_form" onsubmit="return confirm_recommend_form()" action="" method="post" class="elegant-aero">
+$(function () {
+    var vm = new Vue({
+        el: '#vm',
+        data: {
+            name: '',
+            song_name: '',
+            reason: '',
+            music_type: ''
+        },
+        methods: {
+            submit: function (event) {
+                event.preventDefault();
+                var $form = $('#vm');
+                if (! this.name.trim()) {
+                    alert('请输入名字');
+                }
+                if (! this.song_name.trim()) {
+                    alert('请输入名字');
+                }
+                if (! this.reason.trim()) {
+                    alert('请输入名字');
+                }
+                $form.postJSON('/api/users', {
+                    name: this.name.trim(),
+                    song_name: this.song_name.trim(),
+                    reason:this.reason.trim(),
+                    music_type:this.music_type
+                }, function (err, r) {
+                    if (err) {
+                        return $form.showFormError(err);
+                    }
+                    return location.assign('');
+                });
+            }
+        }
+    });
+    $('#vm').show();
+});
+
+</script>
+
+							<form id="vm" v-on="submit:submit" action="" method="post" class="elegant-aero">
 								<h1>Leave your footer and music
 									<span>Please fill all the texts in the fields.</span>
 								</h1>
 								<label>
 									<span>Nickname:</span>
-									<input  type="text" name="name" placeholder="Write a cute nickname" />
+									<input id="name" v-model="name" type="text" name="name" placeholder="Write a cute nickname" />
 								</label>
 								<label>
 									<span>Song name:</span>
-								   		 <input  type="text" name="song_name" placeholder="Write down your favorite song name" />
+								   		 <input id="song_name" v-model="song_name"type="text" name="song_name" placeholder="Write down your favorite song name" />
 								</label>
 							    <label>
 									 <span>Reason:</span>
-									 <textarea  name="reason" placeholder="Favorite reason or anything"></textarea>
+									 <textarea id="reason" v-model="reason" name="reason" placeholder="Favorite reason or anything"></textarea>
 								</label>
 								<label>
 									 <span>Type of Music:</span>
-								 <select  name="music_type">
+								 <select name="music_type" v-model="music_type">
 									 <option value="don't know" selected = "selected">Don't know</option>
 								     <option value="Job Inquiry">Rock</option>
 									 <option value="General Question">R&B</option>
@@ -478,7 +526,6 @@
         <script src="/static/js/owl.carousel.js"></script>
         <script src="/static/js/script.js"></script>
 		<script type="text/javascript" src="/static/js/fn.js"></script>
-		<script type="text/javascript" src="/static/js/music_recommend_form.js"></script>
     </body>
 </html>
 
