@@ -124,7 +124,7 @@ window.onload=function(){
 			slt();
 		}
 	};
-	request.open("GET",url)
+	request.open("GET",url,true);
 	request.send(null)
 //	num();
 }

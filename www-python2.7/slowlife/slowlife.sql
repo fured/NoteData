@@ -45,6 +45,15 @@ create table book_table (
      primary key (`id`)
 ) engine=innodb default charset=utf8;
 
+
+insert into book_table
+(book_name,author_name,author_contry,book_type,book_image_path,book_download_url)
+values('The Dog Of Babel','Carolyn-Parkhurst','America','novel','/static/images/book/thedogofbabel.jpg','https://pan.baidu.com/s/1o9uJxMU'),
+('Man Som Hatar Kvinnor','Stieg Larsson','Sweden','novel','/static/images/book/mansonhatarkvinnor.jpg','https://pan.baidu.com/s/1o9uJxMU'),
+('Love Letter','岩井俊二','Japan','novel','/static/images/book/loveletter.jpg','https://pan.baidu.com/s/1o9uJxMU'),
+('The Kite Runner','Khaled Hosseini','Afghanistan','novel','/static/images/book/thekiterunner.jpg','https://pan.baidu.com/s/1o9uJxMU'),
+('围城','钱钟书','china','novel','/static/images/book/weicheng.jpg','https://pan.baidu.com/s/1o9uJxMU');
+
 create table share_moive_table(
     `id` int auto_increment,
     `moive_name` varchar(50) not null,
@@ -52,6 +61,15 @@ create table share_moive_table(
     `moive_download_url` varchar(200) not null,
     primary key (`id`)
 )engine=innodb default charset=utf8;
+
+alter table share_moive_table add moive_image_path varchar(100) not null;
+
+insert into share_moive_table
+(moive_name,share_reason,moive_image_path,moive_download_url)
+values('The Master','在徐之前，虽然我们看了多年的中国功夫片，前有李小龙的完美打斗，后有成龙李连杰式的全新港台武打。','/static/images/moive/themaster.jpg','https://pan.baidu.com/s/1gfTnwnp'),
+('Farewell My Concubine','影片围绕两位京剧伶人半个世纪的悲欢离合，展现了对传统文化、人的生存状态及人性的思考与领悟。','/static/images/moive/farewellmyconcubine.jpg','https://pan.baidu.com/s/1gfTnwnp'),
+('The Shawshank Redemption','全片透过监狱这一强制剥夺自由、高度强调纪律的特殊背景来展现作为个体的人对“时间流逝、环境改造”的恐惧。','/static/images/moive/theshawshankRedemption.jpg','https://pan.baidu.com/s/1gfTnwnp'),
+('Brotherhood of Blades','该片讲述了明末崇祯年间，锦衣卫三兄弟奉命追杀魏忠贤，最后却卷入到一场宫廷阴谋当中的充满悬疑的故事。','/static/images/moive/brotherhoodofblades.jpg','https://pan.baidu.com/s/1gfTnwnp');
 
 create table comment_table (
     `id` int auto_increment,

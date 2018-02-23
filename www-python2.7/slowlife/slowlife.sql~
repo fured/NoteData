@@ -3,6 +3,7 @@
 -- create database slowlife;
 use slowlife;
 -- grant select, insert, update, delete on slowlife.* to 'slowlife'@'localhost';
+-- grant ALL PRIVILEGES on slowlife.* to 'slowlife'@'localhost';
 drop table if exists play_music_table;
 create table play_music_table (
     `id` int auto_increment,
@@ -43,6 +44,15 @@ create table book_table (
     `book_download_url` varchar(200) not null,
      primary key (`id`)
 ) engine=innodb default charset=utf8;
+
+
+insert into book_table
+(book_name,author_name,author_contry,book_type,book_image_path,book_download_url)
+values('The Dog Of Babel','Carolyn-Parkhurst','America','novel','/static/images/book/thedogofbabel.jpg','https://pan.baidu.com/s/1o9uJxMU'),
+('Man Som Hatar Kvinnor','Stieg Larsson','Sweden','novel','/static/images/book/mansonhatarkvinnor.jpg','https://pan.baidu.com/s/1o9uJxMU'),
+('Love Letter','岩井俊二','Japan','novel','/static/images/book/loveletter.jpg','https://pan.baidu.com/s/1o9uJxMU'),
+('The Kite Runner','Khaled Hosseini','Afghanistan','novel','/static/images/book/thekiterunner.jpg','https://pan.baidu.com/s/1o9uJxMU'),
+('围城','钱钟书','china','novel','/static/images/book/weicheng.jpg','https://pan.baidu.com/s/1o9uJxMU');
 
 create table share_moive_table(
     `id` int auto_increment,

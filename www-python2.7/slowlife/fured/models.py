@@ -80,6 +80,7 @@ class RecommendMusicTable(models.Model):
 class ShareMoiveTable(models.Model):
     moive_name = models.CharField(max_length=50)
     share_reason = models.CharField(max_length=500)
+    moive_image_path = models.CharField(max_length=100)
     moive_download_url = models.CharField(max_length=200)
 
     class Meta:
