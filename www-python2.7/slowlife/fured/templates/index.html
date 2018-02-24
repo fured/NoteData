@@ -416,18 +416,18 @@
                         </div>
                         <div class="col-sm-6">
                             <h2 class="con-title">You want to say...</h2>
-                            <form role="form">
+                            <form role="form" id="leave_message">
                               <div class="form-group">
-                                <input type="text" class="form-control" id="user_name" placeholder="Enter your name">
+                                <input type="text" class="form-control" name="user_name" placeholder="Enter your name">
                               </div>
                               <div class="form-group">
-                                <input type="email" class="form-control" id="your_email" placeholder="Enter your email">
+                                <input type="email" class="form-control" name="your_email" placeholder="Enter your email">
                               </div>
                               <div class="form-group">
                                 <textarea name="InputMessage" id="user_message" class="form-control" rows="5" required></textarea>
                               </div>
 
-                              <button type="submit" class="btn medium">Let fured know</button>
+                              <button type="button" class="btn medium" onclick="confirm_message()">Let fured know</button>
                             </form>   
                         </div>
                     </div>
@@ -484,6 +484,7 @@
         <script src="/static/js/script.js"></script>
 		<script type="text/javascript" src="/static/js/fn.js"></script>
 		<script type="text/javascript" src="/static/js/music_recommend_form.js"></script>
+		<script type="text/javascript" src="/static/js/message_form.js"></script>
     </body>
 </html>
 

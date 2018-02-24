@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 import pdb,random,json,time
 from django.shortcuts import render
 from django.http import HttpResponse
-from fured.models import PlayMusicTable,RecommendMusicTable,BookTable,ShareMoiveTable
+from fured.models import PlayMusicTable,RecommendMusicTable,BookTable,ShareMoiveTable,CommentTable
 # Create your views here.
 def index(request):
     book = BookTable.objects.all().values()
@@ -41,4 +41,15 @@ def recommend(request):
     recommend.create_at = int(time.time())
     recommend.save()
     return HttpResponse("recommend success!thank you:"+data_py["nickname"]+"!")
+
+def message(request):
+    data = request.body
+    data_py = json.loads(data)
+    message = CommentTable()
+    message.comment_name = data_py["user_name"]
+    message.comment_email = data_py["your_email"]
+    message.comment_message = data_py["user_message"]
+    message.create_at = int(time.time())
+    message.save()
+    return HttpResponse("leave meaaage success!thank you:"+data_py["user_name"]+"!")
 
