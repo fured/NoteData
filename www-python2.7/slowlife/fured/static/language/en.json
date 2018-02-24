@@ -1,0 +1,75 @@
+{
+	"navigation_label":"Slowlife",
+	"web_name":"Slowlife",
+	"web_theme":"The Life is so beautiful",
+	"web_label":"Join Slowlife",
+	"section":{
+				"one_name":"Home",
+				"two_name":"Music",
+				"three_name":"Book Bar",
+				"four_name":"Moive",
+				"five_name":"Leave messages"
+	},
+	"Music":{
+				"title":"Enjoy Music",
+				"recommend":{
+						"saying":"If you have good music,no matter what other people think,please tell me!",
+						"theme":"Don't be mean",
+						"admin_name":"fured",
+						"solgan":"slide...Let's us share."
+				},
+				"recommend_form":{
+						"nick_name":"Nickname:",
+						"song_name":"Song name:",
+						"reason":"Reason:",
+						"type":"Type of Music:",
+						"select":{
+								"default":"Don't know",
+								"one":"Rock",
+								"two":"R&B",
+								"three":"Blue"
+						},
+						"default":{
+								"one":"Write a cute nickname",
+								"two":"Write down your favorite song name",
+								"three":"Favorite reason or anything"
+						},
+						"submit":"Send"
+				},
+				"music_player":{
+						"slogan":"Recommend by Fured",
+						"date":"January 2018"
+				}
+	},
+	"book_bar":{
+			"title":"Book Bar",
+			"download_button":"Download"
+	},
+	"moive":{
+			"title":"Share Moive",
+			"download_button":"Download"
+	},
+	"leave_message":{
+			"title":"Leave messages",
+			"author_information":{
+				"title":"Daily sentence by fured",
+				"description":"Share music, books, videos, and more to delight in life. Welcome to bother fured through the following email. Thank you!",
+				"more":"More about me",
+				"address":"beijing,china",
+				"email":"2441742075@qq.com",
+				"phone":"18712780309",
+				"web_site":"www.slowlife-fured.com:9999"
+			},
+			"message_form":{
+				"title":"You want to say...",
+				"one_default":"Enter your name",
+				"two_default":"Enter your email",
+				"three_default":"Enter message of you want to say for fured",
+				"submit":"Let fured know"
+			}
+	},
+	"bottom":{
+			"language":"中文",
+			"admin_login":"Admin login"
+	}
+}

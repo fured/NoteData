@@ -1,0 +1,69 @@
+{
+	"navigation_label":"Slowlife",
+	"web_name":"Slowlife",
+	"web_theme":"生活如此美好",
+	"web_label":"成为我们",
+	"section":{
+				"one_name":"主页",
+				"two_name":"音乐",
+				"three_name":"书吧",
+				"four_name":"视频",
+				"five_name":"留言"
+	},
+	"Music":{
+				"title":"享受音乐",
+				"recommend":{
+						"saying":"If you have good music,no matter what other people think,please tell me!",
+						"theme":"Don't be mean",
+						"admin_name":"fured",
+						"solgan":"slide...Let's us share."
+				},
+				"recommend_form":{
+						"nick_name":"Nickname:",
+						"song_name":"Song name:",
+						"reason":"Reason:",
+						"type":"Type of Music:",
+						"select":{
+								"one":"Rock",
+								"two":"R&B",
+								"three":"Blue"
+						},
+						"submit":"Send"
+				},
+				"music_player":{
+						"slogan":"Recommend by Fured",
+						"date":"January 2018"
+				}
+	},
+	"book_bar":{
+			"title":"Book Bar",
+			"download_button":"Download"
+	},
+	"moive":{
+			"title":"Share Moive",
+			"download_button":"Download"
+	},
+	"leave_message":{
+			"title":"Leave messages",
+			"author_information":{
+				"title":"Daily sentence by fured",
+				"description":"",
+				"more":"More about me",
+				"address":"beijing,china",
+				"email":"2441742075@qq.com",
+				"phone":"18712780309",
+				"web_site":"www.slowlife-fured.com:9999"
+			},
+			"message_form":{
+				"title":"You want to say...",
+				"one_default":"Enter your name",
+				"two_default":"Enter your email",
+				"three_default":"Enter message of you want to say for fured",
+				"submit":"Let fured know"
+			}
+	},
+	"bottom":{
+			"language":"中文",
+			"admin_login":"Admin login"
+	}
+}

@@ -6,18 +6,33 @@ function confirm_recommend_form(){
 	var nickname = myform["name"].value;
 	console.log(nickname);
 	if (nickname == "") {
-		alert("Nickname is not allowed to be empty!");
-		return;
+		if (lang == "zh"){
+			alert("给您起一个好听的昵称");
+			return;
+		}else{
+			alert("Nickname is not allowed to be empty!");
+			return;
+		}
 	}
 	var songname = myform["song_name"].value;
 	if (songname == "") {
-		alert("Song name is not allowed to be empty!");
-		return;
+		if (lang == "zh"){
+			alert("歌名不应该不写呀！");
+			return;
+		}else{
+			alert("Song name is not allowed to be empty!");
+			return;
+		}
 	}
 	var reason = myform["reason"].value;
 	if (reason == "") {
-		alert("Reason is not allowed to be empty!");
-		return;
+		if (lang == "zh"){
+			alert("总有喜欢的理由吧？随便写点。");
+			return;
+		}else{
+			alert("Reason is not allowed to be empty!");
+			return;
+		}
 	}
 	var type = myform["music_type"].value;
     var url = "../music_recommend/submit";
@@ -29,7 +44,7 @@ function confirm_recommend_form(){
 	};
 	var data = '{"nickname":"'+nickname+'","songname":"'+songname+'","reason":"'+reason+'","type":"'+type+'"}';
 
-	request.open("POST",url);
+	request.open("POST",url,true);
 	request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
 	request.send(data)
 }
