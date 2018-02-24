@@ -50,7 +50,7 @@ function confirm_message(){
 			alert(request.responseText);
 		}
 	};
-	var data = '{"user_name":"'+user_name+'","your_email":"'+your_email+'","user_message":"'+user_message+'"}';
+	var data = '{"user_name":"'+user_name+'","your_email":"'+your_email+'","user_message":"'+user_message+'","lang":"'+lang+'"}';
 	request.open("POST",url,true);
 	request.setRequestHeader("Content-Type","application/x-www-form-urlencoded;");
 	request.send(data);

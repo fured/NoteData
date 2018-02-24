@@ -42,8 +42,7 @@ function confirm_recommend_form(){
 			alert(request.responseText);
 		}
 	};
-	var data = '{"nickname":"'+nickname+'","songname":"'+songname+'","reason":"'+reason+'","type":"'+type+'"}';
-
+	var data = '{"nickname":"'+nickname+'","songname":"'+songname+'","reason":"'+reason+'","type":"'+type+'","lang":"'+lang+'"}';
 	request.open("POST",url,true);
 	request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
 	request.send(data)

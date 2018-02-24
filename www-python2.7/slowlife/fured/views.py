@@ -33,6 +33,7 @@ def playlist(request):
 def recommend(request):
     data = request.body
     data_py = json.loads(data)
+    lang = data_py["lang"]
     recommend = RecommendMusicTable()
     recommend.song_name = data_py["songname"]
     recommend.song_type = data_py["type"]
@@ -40,16 +41,25 @@ def recommend(request):
     recommend.recommend_reason = data_py["reason"]
     recommend.create_at = int(time.time())
     recommend.save()
-    return HttpResponse("recommend success!thank you:"+data_py["nickname"]+"!")
+    if lang == "zh":
+        reponse = "分享成功！谢谢"+data_py["nickname"]+"!"
+    else:
+        reponse = "recommend success!thank you:"+data_py["nickname"]+"!"
+    return HttpResponse(reponse)
 
 def message(request):
     data = request.body
     data_py = json.loads(data)
+    lang = data_py["lang"]
     message = CommentTable()
     message.comment_name = data_py["user_name"]
     message.comment_email = data_py["your_email"]
     message.comment_message = data_py["user_message"]
     message.create_at = int(time.time())
     message.save()
-    return HttpResponse("leave meaaage success!thank you:"+data_py["user_name"]+"!")
+    if lang == "zh":
+        reponse = "留言已经被fured得知！谢谢"+data_py["user_name"]+"!"
+    else:
+        reponse ="leave meaaage success!thank you:"+data_py["user_name"]+"!"
+    return HttpResponse(reponse)
 
