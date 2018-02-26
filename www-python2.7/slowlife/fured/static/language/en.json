@@ -19,12 +19,14 @@
 						"solgan":"slide...Let's us share."
 				},
 				"recommend_form":{
+						"title":"Leave your footer and music",
+						"title":"Please fill all the texts in the fields.",
 						"nick_name":"Nickname:",
 						"song_name":"Song name:",
 						"reason":"Reason:",
 						"type":"Type of Music:",
 						"select":{
-								"default":"Don't know",
+								"default":"Other",
 								"one":"Rock",
 								"two":"R&B",
 								"three":"Blue"

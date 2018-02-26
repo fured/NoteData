@@ -18,7 +18,8 @@ def index(request):
     while j < len(movie):
         share_movie.append(movie[j])
         j = j + 1
-    return render(request,'index.html',{"show_book":show_book,"show_movie":share_movie})
+    test = "123"
+    return render(request,'index.html',{"show_book":show_book,"show_movie":share_movie,"test":test})
 
 def playlist(request):
     song_list = []
@@ -61,5 +62,19 @@ def message(request):
         reponse = "留言已经被fured得知！谢谢"+data_py["user_name"]+"!"
     else:
         reponse ="leave meaaage success!thank you:"+data_py["user_name"]+"!"
+    return HttpResponse(reponse)
+
+def transform_language(request):
+    current_lang = request.GET.get("lang")
+    if current_lang == "en":
+        with open("./fured/static/language/zh.json","r") as fd:
+            lang_str = fd.read()
+            data = "zh"
+    else:
+        with open("./fured/static/language/en.json","r") as fd:
+            lang_str = fd.read()
+            data = "en"
+    lang_data_py = json.dumps(json.loads(lang_str))
+    reponse = '{"slogin":"'+data+'","language_data":'+lang_data_py+'}'
     return HttpResponse(reponse)
 

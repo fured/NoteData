@@ -30,6 +30,11 @@
         <script src="/static/js/modernizr.js"></script>
     </head>
     <body id="body">
+	<script>
+		var test = {{ test }}
+        console.log(test)
+
+		</script>
         <!--[if lt IE 7]>
                 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -37,7 +42,7 @@
         <header id="header">
             <div class="center text-center">
                 <h1 class="bigheadline">Slowlife</h1>
-                <h4 class="subheadline">The Life is so beautiful</h4>
+                <h4 id="web_theme" class="subheadline">The Life is so beautiful</h4>
             </div>
             <div class="bottom">
                 <a data-scroll href="#navigation" class="scrollDown animated pulse" id="scrollToContent"><i class="pe-7s-angle-down-circle pe-va"></i></a>
@@ -49,7 +54,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-6">
-						<div class="logo"><a data-scroll  class="logo-text">Join Slowlife</a></div>
+						<div class="logo"><a id="web_label" data-scroll  class="logo-text">Join SLowlife</a></div>
                     </div>
                     <div class="col-xs-6">
                         <div class="nav">
@@ -57,11 +62,11 @@
                              <div class="dropdown-menu">
                                  <div class="arrow-up"></div>
                                  <ul>
-                                     <li><a data-scroll href="#body">Home <i class="pe-7s-home"></i></a><span class="menu-effect"></span></li>
-                                     <li><a data-scroll href="#testimonial">Music <i class="pe-7s-config"></i></a><span class="menu-effect"></span></li>
-                                     <li><a data-scroll href="#portfolio">Book Bar <i class="pe-7s-glasses"></i></a><span class="menu-effect"></span></li>
-                                     <li><a data-scroll href="#services">Moive <i class="pe-7s-comment"></i><span class="menu-effect"></span></a></li>
-                                     <li><a data-scroll href="#contact">Leave messages <i class="pe-7s-help1"></i></a><span class="menu-effect"></span></li>
+									 <li><a data-scroll href="#body"><p id="section_one_name">Home </p><i class="pe-7s-home"></i></a><span class="menu-effect"></span></li>
+									 <li><a data-scroll href="#testimonial"><p id="section_two_name">Music </p><i class="pe-7s-config"></i></a><span class="menu-effect"></span></li>
+									 <li><a data-scroll href="#portfolio"><p id="section_three_name">Book Bar </p><i class="pe-7s-glasses"></i></a><span class="menu-effect"></span></li>
+									 <li><a data-scroll href="#services"><p id="section_four_name">Moive </p><i class="pe-7s-comment"></i><span class="menu-effect"></span></a></li>
+									 <li><a data-scroll href="#contact"><p id="section_five_name">Leave messages </p><i class="pe-7s-help1"></i></a><span class="menu-effect"></span></li>
                                  </ul>
                              </div>
                         </div>
@@ -78,18 +83,19 @@
         <section id="testimonial" class="testimonial-area">
 			<!--<div class="container">-->
 			<div style={margin-top:20px;}>
-                <h2 class="test_block_title">Enjoy Music</h2>
+                <h2 id="music_title" class="test_block_title">Enjoy Music</h2>
                 <div class="row">
                     <div class="col-xs-12">
                     </div>
                     <div id="testimonial-container" class="col-xs-12">
                         <div class="testimonila-block">
                             <img src="/static/images/music_share.jpg" alt="clients" class="selfshot">
-							<p>If you have good music,no matter what other people think,please tell me!</p>
-                            <strong>Dont't be mean</strong>
+							<p id="music_recommend_saying">If you have good music,no matter what other people think,please tell me!</p>
+                            <strong id="music_recommend_theme">Dont't be mean</strong>
                             <br>
                             <small>fured</small>
-							<p><img style={border:0px;} src="/static/images/look_this.png">slide..Let's us share.</p>
+							<h4><img style={border:0px;} src="/static/images/look_this.png"></h4>
+							<p id="music_recommend_slogan">slide..Let's us share.</p>
                         </div>
                         <div class="testimonila-block">
 							<!--
@@ -101,33 +107,33 @@
 
 
 							<form id="recommend_form" action="" method="post" class="elegant-aero">
-								<h1>Leave your footer and music
-									<span>Please fill all the texts in the fields.</span>
+								<h1><p id="music_recommend_form_title">Leave your footer and music</p>
+									<span id="music_recommend_form_title2">Please fill all the texts in the fields.</span>
 								</h1>
 								<label>
-									<span>Nickname:</span>
-									<input  type="text" name="name" placeholder="Write a cute nickname" />
+									<span id="music_recommend_form_nick_name">Nickname:</span>
+									<input id="music_recommend_form_default_one" type="text" name="name" placeholder="Write a cute nickname" />
 								</label>
 								<label>
-									<span>Song name:</span>
-								   		 <input  type="text" name="song_name" placeholder="Write down your favorite song name" />
+									<span id="music_recommend_form_song_name">Song name:</span>
+								   		 <input id="music_recommend_form_default_two" type="text" name="song_name" placeholder="Write down your favorite song name" />
 								</label>
 							    <label>
-									 <span>Reason:</span>
-									 <textarea  name="reason" placeholder="Favorite reason or anything"></textarea>
+									 <span id="music_recommend_form_reason">Reason:</span>
+									 <textarea  id="music_recommend_form_default_three"name="reason" placeholder="Favorite reason or anything"></textarea>
 								</label>
 								<label>
-									 <span>Type of Music:</span>
+									 <span id="music_recommend_form_type">Type of Music:</span>
 								 <select  name="music_type">
-									 <option value="don't know" selected = "selected">Don't know</option>
-								     <option value="Rock">Rock</option>
-									 <option value="R&B">R&B</option>
-									 <option value="Blue">Blue</option>
+									 <option id="music_recommend_form_select_default" value="Other" selected = "selected">Other</option>
+								     <option id="music_recommend_form_select_one" value="Rock">Rock</option>
+									 <option id="music_recommend_form_select_two" value="R&B">R&B</option>
+									 <option id="music_recommend_form_select_three" value="Blue">Blue</option>
 								 </select>
 							    </label>
 						        <label>
 									<span>&nbsp;</span>
-							 	    <input type="button" class="button" value="Send" onclick="confirm_recommend_form()" />
+							 	    <input id="music_recommend_form_submit" type="button" class="button" value="Send" onclick="confirm_recommend_form()" />
 							    </label>
 						  </form>
 
@@ -146,8 +152,8 @@
 
 <div class="head">
 	<i id="music_menu" class="menu"></i>
-	<p>Recommend by Fured</p>
-    <p class="sml">January 2018</p>
+	<p id="music_music_player_slogan">Recommend by Fured</p>
+    <p id="music_music_player_date" class="sml">January 2018</p>
 </div>
 
 <div class="player">
@@ -174,7 +180,7 @@
         </section><!-- testimonial -->
 <section id="portfolio" class="portfolio-area">
             <div class="container">
-                <h2 class="block_title">Book Bar</h2>
+                <h2 id="book_bar_title" class="block_title">Book Bar</h2>
                 <div class="row port cs-style-3">
 					{% for i in show_book %}
                     <div class="col-md-4 col-sm-6 col-xs-12 item-space">
@@ -183,7 +189,7 @@
                             <figcaption>
 								<h3>《{{ i.book_name }}》</h3>
 								<span>{{ i.author_name }} [{{ i.author_contry }}]</span>
-								<a href="{{ i.book_download_url }}" target="_blank" class="button" >Download</a>
+								<a id="book_bar_download_button{{ forloop.counter }}" href="{{ i.book_download_url }}" target="_blank" class="button" >Download</a>
                             </figcaption>
                         </figure>
                     </div>
@@ -251,7 +257,7 @@
 
         <section id="services" class="service-area">
             <div class="container">
-                <h2 class="block_title">Share Moive</h2>
+                <h2 id="moive_title" class="block_title">Share Moive</h2>
                 <div class="row">
                 <!--
 					<div class="col-md-3 col-sm-6">
@@ -314,7 +320,7 @@
 					<div class="text-desc">
 						<h3>{{ i.moive_name }}</h3>
 						<p>{{ i.share_reason }}</p>
-						<a href="{{ i.moive_download_url }}" target="_blank" class="btn">Download</a>
+						<a id="moive_download_button" href="{{ i.moive_download_url }}" target="_blank" class="btn">Download</a>
 					</div>
 				</div>
 			</li>
@@ -397,17 +403,17 @@
             <div id="googleMap" style="width:100%;"></div>
             <div id="contact-area">
                 <div class="container">
-                    <h2 class="block_title">leave Messages</h2>
+                    <h2 id="leave_message_title" class="block_title">leave Messages</h2>
                     <div class="row">
                         <div class="col-xs-12">
                         </div>
                         <div class="col-sm-6">
                             <div class="moreDetails">
-                                <h2 class="con-title">Daily sentence by fured</h2>
-                                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum animi repudiandae nihil aspernatur repellat temporibus doloremque sint ea laboriosam, excepturi iure inventore rerum voluptatibus, suscipit totam, sit necessitatibus. Rerum, blanditiis. </p>
-                               <h3 class="con-title">More about me</h3>
+                                <h2 id="leave_message_author_information_title" class="con-title">Daily sentence by fured</h2>
+                                <p id="leave_message_author_information_description">Share music, books, videos, and more to delight in life. Welcome to bother fured through the following email. Thank you! </p>
+                               <h3 id="leave_message_author_information_more" class="con-title">More about me</h3>
 								<ul class="address">
-                                    <li><i class="pe-7s-map-marker"></i><span>beijing,china</span></li>
+                                    <li><i class="pe-7s-map-marker"></i><span id="leave_message_author_information_address">beijing,china</span></li>
                                     <li><i class="pe-7s-mail"></i><span>2441742075@qq.com</span></li>
                                     <li><i class="pe-7s-phone"></i><span>18712780309</span></li>
                                     <li><i class="pe-7s-global"></i><span><a href="#">www.slowlife-fured.com:9999</a></span></li>
@@ -415,19 +421,19 @@
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <h2 class="con-title">You want to say...</h2>
+                            <h2 id="leave_message_message_form_title" class="con-title">You want to say...</h2>
                             <form role="form" id="leave_message">
                               <div class="form-group">
-                                <input type="text" class="form-control" name="user_name" placeholder="Enter your name">
+                                <input id="leave_message_message_form_one_default" type="text" class="form-control" name="user_name" placeholder="Enter your name">
                               </div>
                               <div class="form-group">
-                                <input type="email" class="form-control" name="your_email" placeholder="Enter your email">
+                                <input id="leave_message_message_form_two_default" type="email" class="form-control" name="your_email" placeholder="Enter your email">
                               </div>
                               <div class="form-group">
-                                <textarea name="InputMessage" id="user_message" class="form-control" rows="5" required></textarea>
+                                <textarea id="leave_message_message_form_three_default" name="InputMessage" id="user_message" class="form-control" rows="5" required placeholder="Enter message of you want to say for fured"></textarea>
                               </div>
 
-                              <button type="button" class="btn medium" onclick="confirm_message()">Let fured know</button>
+                              <button id="leave_message_message_form_submit" type="button" class="btn medium" onclick="confirm_message()">Let fured know</button>
                             </form>   
                         </div>
                     </div>
@@ -466,15 +472,17 @@
                         <p class="designed">Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
 						-->
 						<p class="designed">
-							<button type="button" class="button" onclick="change_language()">chinese</button>
-							<a href="/admin" target="_blank" class="button">Admin login</a>
+							<button id="bottom_language" type="button" class="button" onclick="change_language()">中文</button>
+							<a id="bottom_admin_login" href="/admin" target="_blank" class="button">Admin login</a>
 						</p>
 						</div>
                 </div>
             </div>
         </footer>
 	<script>
-		var lang = "zh";
+		var lang = "en";
+        var book_count = {{ book_count }}
+      //  var movie_coun
 	</script>
         <!-- Necessery scripts -->
         <script src="/static/js/jquery-2.1.3.min.js"></script>

@@ -19,12 +19,14 @@
 						"solgan":"滑动...去分享"
 				},
 				"recommend_form":{
+						"title":"留下你的足迹和音乐",
+						"title2":"请填写所有的内容",
 						"nick_name":"昵称:",
 						"song_name":"歌名:",
 						"reason":"理由:",
 						"type":"音乐类型:",
 						"select":{
-                                "default":"未知", 
+                                "default":"其它", 
 								"one":"摇滚",
 								"two":"节奏布鲁斯",
 								"three":"蓝调"

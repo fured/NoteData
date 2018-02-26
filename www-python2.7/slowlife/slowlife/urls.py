@@ -23,6 +23,7 @@ urlpatterns = [
     url(r'^$',fured_views.index),
     url(r'^music_player/play_list',fured_views.playlist),
     url(r'^music_recommend/submit',fured_views.recommend),
-    url(r'^message/submit',fured_views.message)
+    url(r'^message/submit',fured_views.message),
+    url(r'^language/transform/$',fured_views.transform_language),
 ]
 urlpatterns += staticfiles_urlpatterns()
