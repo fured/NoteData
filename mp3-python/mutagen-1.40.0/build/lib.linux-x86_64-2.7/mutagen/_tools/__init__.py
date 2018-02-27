@@ -1,4 +1,3 @@
-#!F:\python2.7\python.exe
 # -*- coding: utf-8 -*-
 # Copyright 2016 Christoph Reiter
 #
@@ -6,11 +5,3 @@
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation; either version 2 of the License, or
 # (at your option) any later version.
-
-import sys
-
-from mutagen._tools.moggsplit import entry_point
-
-
-if __name__ == "__main__":
-    sys.exit(entry_point())
