@@ -18,8 +18,8 @@ def index(request):
     while j < len(movie):
         share_movie.append(movie[j])
         j = j + 1
-    test = "123"
-    return render(request,'index.html',{"show_book":show_book,"show_movie":share_movie,"test":test})
+    #return render(request,'index.html',{"show_book":show_book,"show_movie":share_movie,"book_count":len(show_book),"moive_count":len(share_movie)})
+    return render(request,'index.html',{"show_book":show_book,"show_movie":share_movie})
 
 def playlist(request):
     song_list = []

@@ -42,10 +42,17 @@ function transform(json_str){
 	document.getElementById("music_music_player_slogan").innerHTML = language["language_data"]["Music"]["music_player"]["slogan"]
 	document.getElementById("music_music_player_date").innerHTML = language["language_data"]["Music"]["music_player"]["date"]
 	document.getElementById("book_bar_title").innerHTML = language["language_data"]["book_bar"]["title"]
-	console.log(book_count);
-	//document.getElementById("book_bar_download_button").innerHTML = language["language_data"]["book_bar"]["download_button"]
+	var i = 1;
+	while (i <= book_count){
+		document.getElementById("book_bar_download_button"+i).innerHTML = language["language_data"]["book_bar"]["download_button"];
+		i = i + 1;
+	}
 	document.getElementById("moive_title").innerHTML = language["language_data"]["moive"]["title"]
-	document.getElementById("moive_download_button").innerHTML = language["language_data"]["moive"]["download_button"]
+	var j = 1;
+	while (j <= moive_count){
+		document.getElementById("moive_download_button"+j).innerHTML = language["language_data"]["moive"]["download_button"];
+		j = j+1;
+	}
 	document.getElementById("leave_message_title").innerHTML = language["language_data"]["leave_message"]["title"]
 	document.getElementById("leave_message_author_information_title").innerHTML = language["language_data"]["leave_message"]["author_information"]["title"]
 	document.getElementById("leave_message_author_information_description").innerHTML = language["language_data"]["leave_message"]["author_information"]["description"]
