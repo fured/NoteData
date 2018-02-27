@@ -9,6 +9,7 @@ var playpause = document.getElementById("play-pause");
 var volume = document.getElementById("volume");
 var music_menu = document.getElementById('music_menu');
 var song_name = document.getElementById('song_name');
+var song_img = document.getElementById('music_music_player_song_img');
 
 audio.controls = false;
 
@@ -33,15 +34,21 @@ function togglePlayPause() {
       audio_pause();
    }
 }
-
+function image_error(){
+	console.log("image load error!")
+	song_img.src = "/static/images/head.png"
+}
 function audio_play(){
 	audio.play();
 	song_name.className = "animate";
+	song_img.src = "/static/images/music/"+mlist[currentIndex - 1].slice(14).split(".")[0]+".jpg"
+	song_img.className = "play-rotate"
 	song_name.innerHTML = mlist[currentIndex - 1].slice(14).split(".")[0]
 }
 function audio_pause(){
 	audio.pause()
-	song_name.className = "noanimate"
+	song_name.className = "noanimate";
+	song_img.className = "";
 }
 function play_previous(){
 	audio.pause();

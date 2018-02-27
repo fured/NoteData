@@ -24,6 +24,7 @@
 		<link rel="stylesheet" href="/static/css/form_style.css">
 		<link rel="stylesheet" href="/static/css/moive_style.css">
 		<link rel="stylesheet" href="/static/css/music_style.css">
+		<link rel="stylesheet" href="/static/css/smile_image.css">
         <!-- google fonts 
         <link href='http://fonts.useso.com/css?family=Dosis:200,300,400,500|Lato:300,400,700,900,300italic,400italic,700italic,900italic|Raleway:400,200,300,500,100|Titillium+Web:400,200,300italic,300,200italic' rel='stylesheet' type='text/css'>
 		-->
@@ -34,10 +35,32 @@
                 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <!-- Header area -->
+		 <script type="text/javascript">
+  /**
+   * @param {String} errorMessage  错误信息
+   * @param {String} scriptURI   出错的文件
+   * @param {Long}  lineNumber   出错代码的行号
+   * @param {Long}  columnNumber  出错代码的列号
+   * @param {Object} errorObj    错误的详细信息，Anything
+   */
+  window.onerror = function(errorMessage, scriptURI, lineNumber,columnNumber,errorObj) {
+    console.log("错误信息：" , errorMessage);
+    console.log("出错文件：" , scriptURI);
+    console.log("出错行号：" , lineNumber);
+    console.log("出错列号：" , columnNumber);
+    console.log("错误详情：" , errorObj);
+  }
+  </script>
         <header id="header">
             <div class="center text-center">
                 <h1 class="bigheadline">Slowlife</h1>
                 <h4 id="web_theme" class="subheadline">The Life is so beautiful</h4>
+			<div class="smiley">
+  <div class="leftEye"></div>
+  <div class="rightEye"></div>
+  <div class="mouth"></div>
+</div>
+
             </div>
             <div class="bottom">
                 <a data-scroll href="#navigation" class="scrollDown animated pulse" id="scrollToContent"><i class="pe-7s-angle-down-circle pe-va"></i></a>
@@ -159,7 +182,7 @@
 		<p id="song_name" class="noanimate"></p>
     	<div class="play-hd" id="play">
             <canvas id="progress" width="230" height="230"></canvas>
-        	<img src="/static/images/head.png">
+        	<img id="music_music_player_song_img" src="/static/images/head.png" onerror='image_error()'>
             <i id="play-pause" onclick="togglePlayPause()" class="stop"></i>
         </div>
 		<audio id="audio" controls></audio>

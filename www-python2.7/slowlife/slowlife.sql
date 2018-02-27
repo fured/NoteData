@@ -16,13 +16,11 @@ create table play_music_table (
 
 insert into play_music_table
 (song_name,songer_name,song_image_path,storage_path)
-values('BeginAgain.mp3','Tayer','/static/images/music/BeginAgain.jpg','/static/music/BeginAgin.mp3'),
-('IAlmostDo.mp3','Tayer','/static/images/music/IAlmostDo.jpg','/static/music/IAlmostDo.mp3'),
-('Red.mp3','Tayer','/static/images/music/Red.jpg','/static/music/Red.mp3'),
-('Starlight.mp3','Tayer','/static/images/music/Starlight.jpg','/static/music/Starlight.mp3'),
-('StayStayStay.mp3','Tayer','/static/images/music/StayStayStay.jpg','/static/music/StayStayStay.mp3');
+values('不要说话','陈奕迅','/static/images/music/不要说话.jpg','/static/music/不要说话.mp3'),
+('勇敢爱','Mi2','/static/images/music/勇敢爱.jpg','/static/music/勇敢爱.mp3'),
+('F.L - 你看到那遥远的星空了吗','F.L','/static/images/head.png','/static/music/FL - 你看到那遥远的星空了吗.mp3');
 
-
+alter table play_music_table add unique(storage_path);
 drop table if exists recommend_music_table;
 create table recommend_music_table(
     `id` int auto_increment,

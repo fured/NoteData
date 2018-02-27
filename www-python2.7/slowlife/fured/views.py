@@ -24,9 +24,9 @@ def index(request):
 def playlist(request):
     song_list = []
     i = 0 
-    all_song_name = PlayMusicTable.objects.all().values('song_name')
+    all_song_name = PlayMusicTable.objects.all().values('storage_path')
     while i < len(all_song_name):
-        song_list.append('/static/music/' + all_song_name[i]['song_name'] + ':')
+        song_list.append(all_song_name[i]["storage_path"] + ':')
         i = i + 1
     random.shuffle(song_list)
     return HttpResponse(song_list)
