@@ -485,6 +485,7 @@ header{
 }
 #googleMap {
     position: absolute !important;
+	background-image:url("../images/googlemap.png");
     top: 0;
     left: 0;
     height: 100%;

@@ -26,9 +26,13 @@ def playlist(request):
     i = 0 
     all_song_name = PlayMusicTable.objects.all().values('storage_path')
     while i < len(all_song_name):
-        song_list.append(all_song_name[i]["storage_path"] + ':')
+        if i == (len(all_song_name) - 1):
+            song_list.append(all_song_name[i]["storage_path"])
+        else:
+            song_list.append(all_song_name[i]["storage_path"]+':')
         i = i + 1
-    random.shuffle(song_list)
+    #random.shuffle(song_list)
+    print song_list
     return HttpResponse(song_list)
 
 def recommend(request):

@@ -1,5 +1,6 @@
 // JavaScript Document
 var currentIndex = 0;
+var play_history = [];
 //var mlist = ["/static/music/BeginAgain.mp3","/static/music/Red.mp3","/static/music/StayStayStay.mp3","/static/music/Starlight.mp3"];
 var mlist = [];
 var change_play = false;
@@ -68,7 +69,7 @@ function play_previous(){
 
 function play_next(){
 	audio.pause();
-	  song_name.className = "noanimate";
+	song_name.className = "noanimate";
 	change_play = true;
 	updateProgress();
 	change_play = false;
@@ -128,6 +129,7 @@ window.onload=function(){
 			//alert("success!")
 			//console.log("success!")
 			mlist = request.responseText.split(":");
+			console.log(mlist);
 			slt();
 		}
 	};

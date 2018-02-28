@@ -32,7 +32,7 @@ function confirm_message(){
 		}
 	}
 
-	var user_message = document.getElementById("user_message").value;
+	var user_message = document.getElementById("leave_message_message_form_three_default").value;
 	console.log(user_message);
 	if (user_message == ""){
 		if (lang == "zh"){

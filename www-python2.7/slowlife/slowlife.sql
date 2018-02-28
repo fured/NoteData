@@ -16,7 +16,10 @@ create table play_music_table (
 
 insert into play_music_table
 (song_name,songer_name,song_image_path,storage_path)
-values('不要说话','陈奕迅','/static/images/music/不要说话.jpg','/static/music/不要说话.mp3'),
+values('今夜你会不会来','黎明','/static/images/head.png','/static/music/今夜你会不会来.mp3'),
+('我不愿让你一个人','五月天','/static/images/music/我不愿让你一个人.jpg','/static/music/我不愿让你一个人.mp3'),
+('给我一首歌的时间','周杰伦','/static/images/head.png','/static/music/给我一首歌的时间.mp3'),
+('不要说话','陈奕迅','/static/images/music/不要说话.jpg','/static/music/不要说话.mp3'),
 ('勇敢爱','Mi2','/static/images/music/勇敢爱.jpg','/static/music/勇敢爱.mp3'),
 ('F.L - 你看到那遥远的星空了吗','F.L','/static/images/head.png','/static/music/FL - 你看到那遥远的星空了吗.mp3');
 
