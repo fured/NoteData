@@ -2,7 +2,7 @@
 
 var currentIndex = 0;
 var play_history = [];
-var mlist = [];
+//var mlist = [];
 var change_play = false;
 var audio = document.getElementById('audio');
 var progress = document.getElementById('progress');
@@ -167,17 +167,17 @@ function resetPlayer() {
 }
 
 window.onload=function(){ 
-	var url = "../music_player/play_list"
-	var request = new XMLHttpRequest();
-	request.onload = function () {
-		if (request.status == 200){
-			mlist = request.responseText.split(":");
-			console.log(mlist);
-			slt();
-		}
-	};
-	request.open("GET",url,true);
-	request.send(null)
+//	var url = "../music_player/play_list"
+//	var request = new XMLHttpRequest();
+//	request.onload = function () {
+//		if (request.status == 200){
+//			mlist = request.responseText.split(":");
+//			console.log(mlist);
+	slt();
+//		}
+//	};
+//	request.open("GET",url,true);
+//	request.send(null)
 }
 
 function slt(){

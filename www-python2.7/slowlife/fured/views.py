@@ -18,8 +18,18 @@ def index(request):
     while j < len(movie):
         share_movie.append(movie[j])
         j = j + 1
+    song_list = []
+    i = 0
+    all_song_name = PlayMusicTable.objects.all().values('storage_path')
+    while i < len(all_song_name):
+        #if i == (len(all_song_name) - 1):
+        song_list.append(all_song_name[i]["storage_path"])
+       # else:
+          #  song_list.append(all_song_name[i]["storage_path"]+":")
+        i = i + 1
+    print song_list
     #return render(request,'index.html',{"show_book":show_book,"show_movie":share_movie,"book_count":len(show_book),"moive_count":len(share_movie)})
-    return render(request,'index.html',{"show_book":show_book,"show_movie":share_movie})
+    return render(request,'index.html',{"show_book":show_book,"show_movie":share_movie,"play_list":json.dumps(song_list)})
 
 def playlist(request):
     song_list = []
