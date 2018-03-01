@@ -30,7 +30,7 @@ CREATE TABLE `play_music_table` (
   `storage_path` varchar(100) NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `storage_path` (`storage_path`)
-) ENGINE=InnoDB AUTO_INCREMENT=30 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -39,7 +39,7 @@ CREATE TABLE `play_music_table` (
 
 LOCK TABLES `play_music_table` WRITE;
 /*!40000 ALTER TABLE `play_music_table` DISABLE KEYS */;
-INSERT INTO `play_music_table` VALUES (6,'Red','Taylor Swift','/static/images/music/Red.jpg','/static/music/Red.mp3'),(11,'Starlight','Taylor Swift','/static/images/music/Starlight.jpg','/static/music/Starlight.mp3'),(13,'Stay Stay Stay','Taylor Swift','/static/images/music/Stay Stay Stay.jpg','/static/music/Stay Stay Stay.mp3'),(15,'Begin Again','Taylor Swift','/static/images/music/Begin Again.jpg','/static/music/Begin Again.mp3'),(16,'I Almost Do','Taylor Swift','/static/images/music/I Almost Do.jpg','/static/music/I Almost Do.mp3'),(17,'22','Taylor Swift','/static/images/music/22.jpg','/static/music/22.mp3'),(18,'Girl At Home','Taylor Swift','/static/images/music/Girl At Home.jpg','/static/music/Girl At Home.mp3'),(21,'I Lay My Love On You','WESTLIFE','/static/images/head.png','/static/music/I Lay My Love On You.mp3'),(22,'The Sound Of Silence','Paul Simon','/static/images/music/The Sound Of Silence.jpg','/static/music/The Sound Of Silence.mp3'),(24,'不要说话','陈奕迅','/static/images/music/不要说话.jpg','/static/music/不要说话.mp3'),(25,'勇敢爱','Mi2','/static/images/music/勇敢爱.jpg','/static/music/勇敢爱.mp3'),(26,'F.L - 你看到那遥远的星空了吗','F.L','/static/images/head.png','/static/music/FL - 你看到那遥远的星空了吗.mp3'),(27,'今夜你会不会来','黎明','/static/images/head.png','/static/music/今夜你会不会来.mp3'),(28,'我不愿让你一个人','五月天','/static/images/music/我不愿让你一个人.jpg','/static/music/我不愿让你一个人.mp3'),(29,'给我一首歌的时间','周杰伦','/static/images/head.png','/static/music/给我一首歌的时间.mp3');
+INSERT INTO `play_music_table` VALUES (6,'Red','Taylor Swift','/static/images/music/Red.jpg','/static/music/Red.mp3'),(11,'Starlight','Taylor Swift','/static/images/music/Starlight.jpg','/static/music/Starlight.mp3'),(13,'Stay Stay Stay','Taylor Swift','/static/images/music/Stay Stay Stay.jpg','/static/music/Stay Stay Stay.mp3'),(15,'Begin Again','Taylor Swift','/static/images/music/Begin Again.jpg','/static/music/Begin Again.mp3'),(16,'I Almost Do','Taylor Swift','/static/images/music/I Almost Do.jpg','/static/music/I Almost Do.mp3'),(17,'22','Taylor Swift','/static/images/music/22.jpg','/static/music/22.mp3'),(18,'Girl At Home','Taylor Swift','/static/images/music/Girl At Home.jpg','/static/music/Girl At Home.mp3'),(21,'I Lay My Love On You','WESTLIFE','/static/images/head.png','/static/music/I Lay My Love On You.mp3'),(22,'The Sound Of Silence','Paul Simon','/static/images/music/The Sound Of Silence.jpg','/static/music/The Sound Of Silence.mp3'),(24,'不要说话','陈奕迅','/static/images/music/不要说话.jpg','/static/music/不要说话.mp3'),(25,'勇敢爱','Mi2','/static/images/music/勇敢爱.jpg','/static/music/勇敢爱.mp3'),(26,'F.L - 你看到那遥远的星空了吗','F.L','/static/images/head.png','/static/music/FL - 你看到那遥远的星空了吗.mp3'),(27,'今夜你会不会来','黎明','/static/images/head.png','/static/music/今夜你会不会来.mp3'),(28,'我不愿让你一个人','五月天','/static/images/music/我不愿让你一个人.jpg','/static/music/我不愿让你一个人.mp3'),(29,'给我一首歌的时间','周杰伦','/static/images/head.png','/static/music/给我一首歌的时间.mp3'),(30,'I Am You','Kim Taylor','/static/images/head.png','/static/music/I Am You.mp3');
 /*!40000 ALTER TABLE `play_music_table` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-03-01  9:26:57
+-- Dump completed on 2018-03-01 13:30:33
