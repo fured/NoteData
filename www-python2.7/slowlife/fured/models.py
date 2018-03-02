@@ -58,6 +58,7 @@ class PlayMusicTable(models.Model):
     song_name = models.CharField(max_length=50)
     songer_name = models.CharField(max_length=50)
     song_image_path = models.CharField(max_length=100)
+    song_type = models.CharField(max_length=100)
     storage_path = models.CharField(max_length=100)
 
     class Meta:

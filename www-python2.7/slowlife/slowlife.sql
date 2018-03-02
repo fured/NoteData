@@ -13,7 +13,7 @@ create table play_music_table (
     `storage_path` varchar(100) not null,
 	primary key (`id`)
 ) engine=innodb default charset=utf8;
-
+alter table play_music_table add song_type varchar(100) not null;
 insert into play_music_table
 (song_name,songer_name,song_image_path,storage_path)
 values('今夜你会不会来','黎明','/static/images/head.png','/static/music/今夜你会不会来.mp3'),

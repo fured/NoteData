@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html class="no-js"> <!--<![endif]-->
+    <head>
+		<title>Slowlife</title>
+
+        <!-- meta -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <!-- stylesheets -->
+        <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/static/font_icon/css/pe-icon-7-stroke.css">
+        <link rel="stylesheet" href="/static/font_icon/css/helper.css">
+        <link rel="stylesheet" href="/static/css/owl.carousel.css">
+        <link rel="stylesheet" href="/static/css/owl.theme.css">
+        <link rel="stylesheet" href="/static/css/animate.css">
+        <link rel="stylesheet" href="/static/css/style.css">
+		{% block css %} {% endblock %}
+<style>
+body{
+	background-image: url(/static/images/bg-small.jpg);
+	background-color: #000000;
+	height:100%;
+}
+h2{
+	color:#ffffff;			
+}
+</style>
+
+    </head>
+    <body>
+		<div style={background:"/static/images/bg-small.jpg"}>
+        <!-- Navigation area -->
+        <section id="navigation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6">
+						<div class="logo"><a  class="logo-text">Join Slowlife</a></div>
+                    </div>
+                </div>
+            </div>            
+        </section>
+        
+ <!-- Testimonial Area -->
+
+        <section class="testimonial-area">
+			<!--<div class="container">-->
+			<div style={margin-top:20px;}>
+				<h2 id="music_title" class="test_block_title" style={color:#ffffff;}>Recommend Music</h2>
+				{% block content %}module content{% endblock %}
+			</div>
+		</section>
+		<!-- Necessery scripts -->
+		{% block js %} {% endblock %}
+			</div>
+    </body>
+</html>

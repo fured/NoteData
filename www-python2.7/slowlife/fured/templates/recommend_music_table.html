@@ -1,0 +1,237 @@
+<!--<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<script type="text/javascript" src="js/vue.min.js"></script>
+		<title>form</title>-->
+		{% extends 'base.html' %}
+		{% block css %}
+		<style type="text/css">
+			#table table {
+				width: 100%;
+				font-size: 14px;
+				font-color:#000000;
+				border: 1px solid #eee
+			}
+			
+			#table {
+				padding: 0 10px;
+			}
+			
+			table thead th {
+				background: #f5f5f5;
+				padding: 10px;
+				text-align: left;
+			}
+			
+			table tbody td {
+				padding: 10px;
+				text-align: left;
+				border-bottom: 1px solid #eee;
+				border-right: 1px solid #eee;
+				color:#ffffff;
+			}
+			
+			table tbody td span {
+				margin: 0 10px;
+				cursor: pointer;
+			}
+			
+			.edit {
+				color: #008cd5;
+			}
+			
+			.add {
+				border: 0px solid #eee;
+				margin: 10px 0;
+				margin-left:11%;
+				width:80%;
+				padding: 15px;
+				color:#000000;
+			}
+			
+			input {
+				border: 1px solid #ccc;
+				padding: 5px;
+				border-radius: 3px;
+				margin-right: 15px;
+			}
+			
+			button {
+				background: #008cd5;
+				border: 0;
+				padding: 4px 15px;
+				border-radius: 3px;
+				color: #fff;
+			}
+			
+			#mask {
+				background: rgba(0, 0, 0, .5);
+				width: 100%;
+				height: 100%;
+				position: fixed;
+				z-index: 4;
+				top: 0;
+				left: 0;
+			}
+			
+			.mask {
+				width: 300px;
+				height: 250px;
+				background: rgba(255, 255, 255, 1);
+				position: absolute;
+				left: 0;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				margin: auto;
+				z-index: 47;
+				border-radius: 5px;
+			}
+			
+			.title {
+				padding: 10px;
+				border-bottom: 1px solid #eee;
+			}
+			
+			.title span {
+				float: right;
+				cursor: pointer;
+			}
+			
+			.content {
+				padding: 10px;
+			}
+			
+			.content input {
+				width: 270px;
+				margin-bottom: 15px;
+			}
+			.table-head{
+				padding:0px;
+				width:80%;
+				margin-left:10%;
+				background:#999;
+				color:#000;
+			}
+			.table-body{
+				width:80%;
+				margin-left:10%;
+				height:600px;
+				overflow-y:scroll;
+			}
+			.table-body button{
+				background: #008cd5;
+				border:0;
+				padding:4px 15px;
+				margin-left:26px;
+				border-radius: 3px;
+				color:#fff;
+			}
+			.table-head table, .table-body table{width:100%;}
+	        /*.table-body table tr:nth-child(2n){background-color:#55bbff;}*/
+		</style>
+
+		<script type="text/javascript" src="/static/js/vue.min.js"></script>
+		{% endblock %}
+<!--	</head>
+
+	<body>-->
+		{% block content %}
+		<div id="table">
+			<div class="add" id="add_recommend">
+				<form >
+				<input type="text" v-model="nick_name" name="nick_name" value="" placeholder="nick name" />
+				<input type="text" v-model="song_name" name="song_name" value="" placeholder="song name" />
+				<input type="text" v-model="recommend_reason" name="recommend_reason" value="" placeholder="recommend reason" />
+				<input type="date" v-model="song_type" name="song_type" value="" placeholder="song type" />
+				<button v-on:click="asc()">recommend the song</button>
+				</form>
+			</div>
+	<script type="text/javascript">
+		var ad = new Vue({
+			el:'#add_recommend',
+			data:{
+			},
+			methods:{
+				asc:function(){
+					console,log("run this");
+					alert("test");
+					var $form = $('#vm');
+					if (!this.nick_name.trim()){
+						return $form.showFormError("please input nick name!");
+					}
+					if (!this.song_name.trim()){
+						return $form.showFormError("please input song name!"); 
+					}
+					if (!this.recommend_reason.trim()){
+						return $form.showFormError("please input reason!");
+					}
+				}
+			}
+		})
+	</script>
+			<div>
+			<div class="table-head">
+				<table>
+					<colgroup>
+						<col style="width:15%;" />
+						<!--	<col style="width:12%;" />-->
+						<col style="width:12%;" />
+						<col style="width:15%" />
+						<col style="width:25%;" />
+						<col style="width:12%;" />
+						<col style="width:12%;" />
+					</colgroup>
+					<thead>
+						<tr>
+                        <th>Song name</th>
+						<!-- <th>Songer name</th>-->
+                        <th>Song type</th>
+                        <th>Recommend name</th>
+						<th>Recommend reason</th>
+						<th>Recommend date</th>
+						<th>Operating</th>
+                    </tr>
+					</thead>
+				</table>
+			</div>
+			<div class="table-body">
+				<table>
+			<colgroup>
+				 <col style="width:15%;" />
+                 <col style="width:12%;" />
+                 <col style="width:15%" />
+                 <col style="width:25%;" />
+                 <col style="width:12%;" />
+                 <col style="width:11.3%;" />
+			</colgroup>
+				<tbody>
+					
+					{% for i in list %}
+					<tr>
+						<td>{{ i.song_name }}</td>
+						<td>{{ i.song_type }}</td>
+						<td>{{ i.recommend_name }}</td>
+						<td>{{ i.recommend_reason }}</td>
+						<td>{{ i.create_at }}</td>
+						<td>
+							<button> Download </button>
+					</tr>
+					{% endfor %}
+				</tbody>
+			</table>
+			</div>
+			</div>
+			</div>
+		</div>
+		{% endblock %}
+		{% block js %}
+		<script type="text/javascript" src="/static/js/view_recommend.js"></script
+		{% endblock %}
+		<!--
+	</body>
+
+</html>-->
