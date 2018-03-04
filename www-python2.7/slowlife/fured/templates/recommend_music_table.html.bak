@@ -1,0 +1,290 @@
+<!--<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<script type="text/javascript" src="js/vue.min.js"></script>
+		<title>form</title>-->
+		{% extends 'base.html' %}
+		{% block css %}
+		<style type="text/css">
+			#table table {
+				width: 100%;
+				font-size: 14px;
+				font-color:#000000;
+				border: 1px solid #eee
+			}
+			
+			#table {
+				padding: 0 10px;
+			}
+			
+			table thead th {
+				background: #f5f5f5;
+				padding: 10px;
+				text-align: left;
+			}
+			
+			table tbody td {
+				padding: 10px;
+				text-align: left;
+				border-bottom: 1px solid #eee;
+				border-right: 1px solid #eee;
+				color:#ffffff;
+			}
+			
+			table tbody td span {
+				margin: 0 10px;
+				cursor: pointer;
+			}
+			
+			.edit {
+				color: #008cd5;
+			}
+			
+			.add {
+				border: 0px solid #eee;
+				margin: 10px 0;
+				margin-left:11%;
+				width:80%;
+				padding: 15px;
+				color:#000000;
+			}
+			
+			input {
+				border: 1px solid #ccc;
+				padding: 5px;
+				border-radius: 3px;
+				margin-right: 15px;
+			}
+			
+			select {
+				border: 1px solid #ccc;
+				padding: 5px;
+				
+				border-radius: 3px;
+				margin-right: 15px;
+			}
+			
+			button {
+				background: #008cd5;
+				border: 0;
+				padding: 4px 15px;
+				border-radius: 3px;
+				color: #fff;
+			}
+			
+			#mask {
+				background: rgba(0, 0, 0, .5);
+				width: 100%;
+				height: 100%;
+				position: fixed;
+				z-index: 4;
+				top: 0;
+				left: 0;
+			}
+			
+			.mask {
+				width: 300px;
+				height: 250px;
+				background: rgba(255, 255, 255, 1);
+				position: absolute;
+				left: 0;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				margin: auto;
+				z-index: 47;
+				border-radius: 5px;
+			}
+			
+			.title {
+				padding: 10px;
+				border-bottom: 1px solid #eee;
+			}
+			
+			.title span {
+				float: right;
+				cursor: pointer;
+			}
+			
+			.content {
+				padding: 10px;
+			}
+			
+			.content input {
+				width: 270px;
+				margin-bottom: 15px;
+			}
+			.table-head{
+				padding:0px;
+				width:80%;
+				margin-left:10%;
+				background:#999;
+				color:#000;
+			}
+			.table-body{
+				width:80%;
+				border:3px;
+				margin-left:10%;
+				height:600px;
+				overflow-y:scroll;
+			}
+			.table-body button{
+				background: #008cd5;
+				border:0;
+				padding:4px 15px;
+				margin-left:26px;
+				border-radius: 3px;
+				color:#fff;
+			}
+			.table-head table, .table-body table{width:100%;}
+	        /*.table-body table tr:nth-child(2n){background-color:#55bbff;}*/
+		</style>
+
+		<script type="text/javascript" src="/static/js/vue.min.js"></script>
+		<script type="text/javascript" src="/static/js/jquery-2.1.3.min.js"></script>
+		{% endblock %}
+<!--	</head>
+
+	<body>-->
+		{% block content %}
+		
+			<div id="app" class="add">			
+				<input type="text" v-model.trim="confirm.nick_name" placeholder="nick name" />
+				<input type="text" v-model.trim="confirm.song_name" value="" placeholder="song name" />
+				<input type="text" v-model.trim="confirm.recommend_reason" value="" placeholder="recommend reason" />
+				<!--<input type="text" v-model.trim="confirm.song_type" value="" placeholder="song type" />-->
+				<select v-model="confirm.song_type" name="music_type" style="color:#C7C7CD;">
+									 <option value="Other" style=" color:#F00;" selected = "selected">song type</option>
+								     <option value="Rock" style=" color:#F00;">Rock</option>
+									 <option value="R&B" style=" color:#F00;">R&B</option>
+									 <option value="Blue" style=" color:#F00;">Blue</option>
+				</select>
+				<button v-on:click="confirm">recommend the song</button>
+			</div>
+	<script type="text/javascript">
+		function getNowFormatDate() {
+    var date = new Date();
+    var seperator1 = "-";
+    var seperator2 = ":";
+    var month = date.getMonth() + 1;
+    var strDate = date.getDate();
+    if (month >= 1 && month <= 9) {
+        month = "0" + month;
+    }
+    if (strDate >= 0 && strDate <= 9) {
+        strDate = "0" + strDate;
+    }
+    var currentdate = date.getFullYear() + seperator1 + month + seperator1 + strDate
+            + " " + date.getHours() + seperator2 + date.getMinutes()
+            + seperator2 + date.getSeconds();
+    return currentdate;
+}
+		var lang = "en";
+		var ad = new Vue({
+			el:'#app',
+			data:{
+			},
+			methods:{
+				confirm:function(){
+					if (! this.confirm.nick_name){
+						return alert("nick name is empty!");	
+					}
+					if (! this.confirm.song_name){
+						alert("song name is empty!");
+						return;	
+					}
+					if (! this.confirm.recommend_reason){
+						alert("reason is empty!");
+						return;	
+					}
+					if (! this.confirm.song_type){
+						alert("please choose song type!");
+						return;	
+					}
+					console.log(this.confirm.song_type);
+					console.log("test");
+					var new_recommend = document.getElementById("new_recommend");
+					//var mydate = new Date();
+					//var current_time = mydate.toLocaleString();
+					var current_time = getNowFormatDate();
+					new_recommend.innerHTML="<td>"+this.confirm.song_name+"</td><td>"+this.confirm.song_type+"</td><td>"+this.confirm.nick_name+"</td><td>"+this.confirm.recommend_reason+"</td><td>"+current_time+"</td><td><button onclick='download_music()'> Download </button>";
+					var url = "../music_recommend/submit";
+	                var request = new XMLHttpRequest();
+					request.onload = function () {
+					if (request.status == 200){
+						alert(request.responseText);
+					}
+					};
+					var data = '{"nickname":"'+this.confirm.nick_name+'","songname":"'+this.confirm.song_name+'","reason":"'+this.confirm.recommend_reason+'","type":"'+this.confirm.song_type+'","lang":"'+lang+'"}';
+					request.open("POST",url,true);
+					request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+					request.send(data)
+					
+				}
+			}
+		})
+	</script>
+			<div class="table-head">
+				<table>
+					<colgroup>
+						<col style="width:15%;" />
+						<!--	<col style="width:12%;" />-->
+						<col style="width:12%;" />
+						<col style="width:15%" />
+						<col style="width:25%;" />
+						<col style="width:12%;" />
+						<col style="width:12%;" />
+					</colgroup>
+					<thead>
+						<tr>
+                        <th>Song name</th>
+						<!-- <th>Songer name</th>-->
+                        <th>Song type</th>
+                        <th>Recommend name</th>
+						<th>Recommend reason</th>
+						<th>Recommend date</th>
+						<th>Operating</th>
+                    </tr>
+					</thead>
+				</table>
+			</div>
+			<div class="table-body">
+				<table id="recommend_table">
+			<colgroup>
+				 <col style="width:15%;" />
+                 <col style="width:12%;" />
+                 <col style="width:15%" />
+                 <col style="width:25%;" />
+                 <col style="width:12%;" />
+                 <col style="width:11.3%;" />
+			</colgroup>
+				<tbody>
+					<tr id="new_recommend"></tr>
+					{% for i in list %}
+					<tr>
+						<td>{{ i.song_name }}</td>
+						<td>{{ i.song_type }}</td>
+						<td>{{ i.recommend_name }}</td>
+						<td>{{ i.recommend_reason }}</td>
+						<td>{{ i.create_at }}</td>
+						<td >
+							<button onclick="download_music(this.parentElement)"> Download </button>
+					</tr>
+					{% endfor %}
+				</tbody>
+			</table>
+			</div>
+			</div>
+			</div>
+		</div>
+		{% endblock %}
+		{% block js %}
+		<script type="text/javascript" src="/static/js/download_music.js"></script>
+		{% endblock %}
+		<!--
+	</body>
+
+</html>-->

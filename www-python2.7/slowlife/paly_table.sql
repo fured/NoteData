@@ -40,7 +40,17 @@ CREATE TABLE `play_music_table` (
 
 LOCK TABLES `play_music_table` WRITE;
 /*!40000 ALTER TABLE `play_music_table` DISABLE KEYS */;
-INSERT INTO `play_music_table` VALUES (6,'Red','Taylor Swift','/static/images/music/Red.jpg','/static/music/Red.mp3','R＆B'),(11,'Starlight','Taylor Swift','/static/images/music/Starlight.jpg','/static/music/Starlight.mp3','R＆B'),(13,'Stay Stay Stay','Taylor Swift','/static/images/music/Stay Stay Stay.jpg','/static/music/Stay Stay Stay.mp3','R＆B'),(15,'Begin Again','Taylor Swift','/static/images/music/Begin Again.jpg','/static/music/Begin Again.mp3','R&B'),(16,'I Almost Do','Taylor Swift','/static/images/music/I Almost Do.jpg','/static/music/I Almost Do.mp3','R＆B'),(17,'22','Taylor Swift','/static/images/music/22.jpg','/static/music/22.mp3','R＆B'),(18,'Girl At Home','Taylor Swift','/static/images/music/Girl At Home.jpg','/static/music/Girl At Home.mp3','R＆B'),(21,'I Lay My Love On You','WESTLIFE','/static/images/head.png','/static/music/I Lay My Love On You.mp3','blue'),(22,'The Sound Of Silence','Paul Simon','/static/images/music/The Sound Of Silence.jpg','/static/music/The Sound Of Silence.mp3','blue'),(24,'不要说话','陈奕迅','/static/images/music/不要说话.jpg','/static/music/不要说话.mp3','rhy'),(25,'勇敢爱','Mi2','/static/images/music/勇敢爱.jpg','/static/music/勇敢爱.mp3','blue'),(26,'F.L - 你看到那遥远的星空了吗','F.L','/static/images/head.png','/static/music/FL - 你看到那遥远的星空了吗.mp3','blue'),(27,'今夜你会不会来','黎明','/static/images/head.png','/static/music/今夜你会不会来.mp3','rhy'),(28,'我不愿让你一个人','五月天','/static/images/music/我不愿让你一个人.jpg','/static/music/我不愿让你一个人.mp3','Rock'),(29,'给我一首歌的时间','周杰伦','/static/images/head.png','/static/music/给我一首歌的时间.mp3','R＆B'),(30,'I Am You','Kim Taylor','/static/images/head.png','/static/music/I Am You.mp3','blue');
+INSERT INTO `play_music_table` 
+VALUES (6,'Red','Taylor Swift','/static/images/music/Red.jpg','/static/music/Red.mp3','R＆B'),
+(11,'Starlight','Taylor Swift','/static/images/music/Starlight.jpg','/static/music/Starlight.mp3','R＆B'),
+(13,'Stay Stay Stay','Taylor Swift','/static/images/music/Stay Stay Stay.jpg','/static/music/Stay Stay Stay.mp3','R＆B'),
+(15,'Begin Again','Taylor Swift','/static/images/music/Begin Again.jpg','/static/music/Begin Again.mp3','R&B'),
+(16,'I Almost Do','Taylor Swift','/static/images/music/I Almost Do.jpg','/static/music/I Almost Do.mp3','R＆B'),
+(17,'22','Taylor Swift','/static/images/music/22.jpg','/static/music/22.mp3','R＆B'),
+(18,'Girl At Home','Taylor Swift','/static/images/music/Girl At Home.jpg','/static/music/Girl At Home.mp3','R＆B'),
+(21,'I Lay My Love On You','WESTLIFE','/static/images/head.png','/static/music/I Lay My Love On You.mp3','blue'),
+(22,'The Sound Of Silence','Paul Simon','/static/images/music/The Sound Of Silence.jpg','/static/music/The Sound Of Silence.mp3','blue'),
+(24,'不要说话','陈奕迅','/static/images/music/不要说话.jpg','/static/music/不要说话.mp3','rhy'),(25,'勇敢爱','Mi2','/static/images/music/勇敢爱.jpg','/static/music/勇敢爱.mp3','blue'),(26,'F.L - 你看到那遥远的星空了吗','F.L','/static/images/head.png','/static/music/FL - 你看到那遥远的星空了吗.mp3','blue'),(27,'今夜你会不会来','黎明','/static/images/head.png','/static/music/今夜你会不会来.mp3','rhy'),(28,'我不愿让你一个人','五月天','/static/images/music/我不愿让你一个人.jpg','/static/music/我不愿让你一个人.mp3','Rock'),(29,'给我一首歌的时间','周杰伦','/static/images/head.png','/static/music/给我一首歌的时间.mp3','R＆B'),(30,'I Am You','Kim Taylor','/static/images/head.png','/static/music/I Am You.mp3','blue');
 /*!40000 ALTER TABLE `play_music_table` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html class="no-js"> <!--<![endif]-->
+    <head>
+		<title>Vue test</title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="/static/js/vue.min.js"></script>
+    </head>
+    <body>
+    	<div id="app">
+  <input v-model="greet.nick_name" type="text" value="" placeholder="nick name" />
+  			<button v-on:click="greet">Greet</button>
+		</div>
+ 
+		<script>
+			console.log("this")
+			var app = new Vue({
+  				el: '#app',
+  				data: {
+    			name: 'Vue.js'
+  				},
+  				methods: {
+    				greet: function (event) {
+      					alert('Hello ' + this.name + '!')
+      					if (event) {
+          					alert(event.target.tagName)
+      					}
+   					}
+  				}
+			})
+		</script>
+    </body>
+</html>

@@ -59,6 +59,14 @@
 				margin-right: 15px;
 			}
 			
+			select {
+				border: 1px solid #ccc;
+				padding: 5px;
+				
+				border-radius: 3px;
+				margin-right: 15px;
+			}
+			
 			button {
 				background: #008cd5;
 				border: 0;
@@ -118,6 +126,7 @@
 			}
 			.table-body{
 				width:80%;
+				border:3px;
 				margin-left:10%;
 				height:600px;
 				overflow-y:scroll;
@@ -135,45 +144,89 @@
 		</style>
 
 		<script type="text/javascript" src="/static/js/vue.min.js"></script>
+		<script type="text/javascript" src="/static/js/jquery-2.1.3.min.js"></script>
 		{% endblock %}
 <!--	</head>
 
 	<body>-->
 		{% block content %}
-		<div id="table">
-			<div class="add" id="add_recommend">
-				<form >
-				<input type="text" v-model="nick_name" name="nick_name" value="" placeholder="nick name" />
-				<input type="text" v-model="song_name" name="song_name" value="" placeholder="song name" />
-				<input type="text" v-model="recommend_reason" name="recommend_reason" value="" placeholder="recommend reason" />
-				<input type="date" v-model="song_type" name="song_type" value="" placeholder="song type" />
-				<button v-on:click="asc()">recommend the song</button>
-				</form>
+		
+			<div id="app" class="add">			
+				<input type="text" v-model.trim="confirm.nick_name" placeholder="nick name" />
+				<input type="text" v-model.trim="confirm.song_name" value="" placeholder="song name" />
+				<input type="text" v-model.trim="confirm.recommend_reason" value="" placeholder="recommend reason" />
+				<!--<input type="text" v-model.trim="confirm.song_type" value="" placeholder="song type" />-->
+				<select v-model="confirm.song_type" name="music_type" style="color:#C7C7CD;">
+									 <option value="Other" style=" color:#F00;" selected = "selected">song type</option>
+								     <option value="Rock" style=" color:#F00;">Rock</option>
+									 <option value="R&B" style=" color:#F00;">R&B</option>
+									 <option value="Blue" style=" color:#F00;">Blue</option>
+				</select>
+				<button v-on:click="confirm">recommend the song</button>
 			</div>
 	<script type="text/javascript">
+		function getNowFormatDate() {
+    var date = new Date();
+    var seperator1 = "-";
+    var seperator2 = ":";
+    var month = date.getMonth() + 1;
+    var strDate = date.getDate();
+    if (month >= 1 && month <= 9) {
+        month = "0" + month;
+    }
+    if (strDate >= 0 && strDate <= 9) {
+        strDate = "0" + strDate;
+    }
+    var currentdate = date.getFullYear() + seperator1 + month + seperator1 + strDate
+            + " " + date.getHours() + seperator2 + date.getMinutes()
+            + seperator2 + date.getSeconds();
+    return currentdate;
+}
+		var lang = "en";
 		var ad = new Vue({
-			el:'#add_recommend',
+			el:'#app',
 			data:{
 			},
 			methods:{
-				asc:function(){
-					console,log("run this");
-					alert("test");
-					var $form = $('#vm');
-					if (!this.nick_name.trim()){
-						return $form.showFormError("please input nick name!");
+				confirm:function(){
+					if (! this.confirm.nick_name){
+						return alert("nick name is empty!");	
 					}
-					if (!this.song_name.trim()){
-						return $form.showFormError("please input song name!"); 
+					if (! this.confirm.song_name){
+						alert("song name is empty!");
+						return;	
 					}
-					if (!this.recommend_reason.trim()){
-						return $form.showFormError("please input reason!");
+					if (! this.confirm.recommend_reason){
+						alert("reason is empty!");
+						return;	
 					}
+					if (! this.confirm.song_type){
+						alert("please choose song type!");
+						return;	
+					}
+					console.log(this.confirm.song_type);
+					console.log("test");
+					var new_recommend = document.getElementById("new_recommend");
+					//var mydate = new Date();
+					//var current_time = mydate.toLocaleString();
+					var current_time = getNowFormatDate();
+					new_recommend.innerHTML="<td>"+this.confirm.song_name+"</td><td>"+this.confirm.song_type+"</td><td>"+this.confirm.nick_name+"</td><td>"+this.confirm.recommend_reason+"</td><td>"+current_time+"</td><td><button onclick='download_music(this.parentElement)'> Download </button>";
+					var url = "../music_recommend/submit";
+	                var request = new XMLHttpRequest();
+					request.onload = function () {
+					if (request.status == 200){
+						alert(request.responseText);
+					}
+					};
+					var data = '{"nickname":"'+this.confirm.nick_name+'","songname":"'+this.confirm.song_name+'","reason":"'+this.confirm.recommend_reason+'","type":"'+this.confirm.song_type+'","lang":"'+lang+'"}';
+					request.open("POST",url,true);
+					request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+					request.send(data)
+					
 				}
 			}
 		})
 	</script>
-			<div>
 			<div class="table-head">
 				<table>
 					<colgroup>
@@ -199,7 +252,7 @@
 				</table>
 			</div>
 			<div class="table-body">
-				<table>
+				<table id="recommend_table">
 			<colgroup>
 				 <col style="width:15%;" />
                  <col style="width:12%;" />
@@ -209,7 +262,7 @@
                  <col style="width:11.3%;" />
 			</colgroup>
 				<tbody>
-					
+					<tr id="new_recommend"></tr>
 					{% for i in list %}
 					<tr>
 						<td>{{ i.song_name }}</td>
@@ -217,8 +270,8 @@
 						<td>{{ i.recommend_name }}</td>
 						<td>{{ i.recommend_reason }}</td>
 						<td>{{ i.create_at }}</td>
-						<td>
-							<button> Download </button>
+						<td >
+							<button onclick="download_music(this.parentElement)"> Download </button>
 					</tr>
 					{% endfor %}
 				</tbody>
@@ -229,7 +282,7 @@
 		</div>
 		{% endblock %}
 		{% block js %}
-		<script type="text/javascript" src="/static/js/view_recommend.js"></script
+		<script type="text/javascript" src="/static/js/download_music.js"></script>
 		{% endblock %}
 		<!--
 	</body>

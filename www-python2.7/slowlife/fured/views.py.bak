@@ -58,14 +58,14 @@ def recommend_music(request):
 	
 def playlist(request):
 	print "play list"
-	song_list = []
-	i = 0 
-	all_song_name = PlayMusicTable.objects.all().values('storage_path')
-	while i < len(all_song_name):
-		song_list.append(all_song_name[i]["storage_path"])
-		i = i + 1
+    song_list = []
+    i = 0 
+    all_song_name = PlayMusicTable.objects.all().values('storage_path')
+    while i < len(all_song_name):
+        song_list.append(all_song_name[i]["storage_path"])
+        i = i + 1
     #random.shuffle(song_list)
-	return HttpResponse(json.dumps(song_list))
+    return HttpResponse(json.dumps(song_list))
 
 def recommend(request):
 	print "this"
