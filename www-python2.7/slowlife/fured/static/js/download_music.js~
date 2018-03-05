@@ -17,7 +17,7 @@ window.onload=function (){
 function view_all_recommend(){
 	console.log(lang);
 	if (lang == "zh"){
-		var url = "/recommend/language";
+		var url = "../recommend/language";
 		var request = new XMLHttpRequest();
 		request.onload = function(){
 			if (request.status == 200){
@@ -26,12 +26,15 @@ function view_all_recommend(){
 		};
 		request.open("GET",url+"/?lang="+lang,true);
 		request.send();
+	}else{
+	//	window.location.href="/view/recommend_music"
+		window.open('/view/recommend_music');
+	//	window.history.back(-1);
 	}
 }
 
 function recommend_transform(json_str){
-	var language = JSON.parse(json_str)["language_data"]
-	console.log(language)
+	var language = JSON.parse(json_str);
 	document.getElementById("base_title").innerHTML = language["base_title"];
 	document.getElementById("moudle_slogan").innerHTML = language["moudle_slogan"];
 	document.getElementById("recommend_submit_nick_name").placeholder = language["recommend_submit"]["nick_name"];
@@ -39,7 +42,7 @@ function recommend_transform(json_str){
 	document.getElementById("recommend_submit_reason").placeholder = language["recommend_submit"]["recommend_reason"];
 	document.getElementById("recommend_submit_song_type_one").innerHTML = language["recommend_submit"]["song_type"]["one"];
 	document.getElementById("recommend_submit_song_type_two").innerHTML = language["recommend_submit"]["song_type"]["two"];
-	document.getElementById("recommend_submit_song_type_three").innerHTML = language["recommend_submit"]["song_type"]["three"];
+	document.getElementById("recommend_submit_song_type_three").innerHTML = language["recommed_submit"]["song_type"]["three"];
 	document.getElementById("recommend_submit_song_type_four").innerHTML = language["recommend_submit"]["song_type"]["four"];
 	document.getElementById("recommend_submit_button").innerHTML = language["recommend_submit"]["submit"];
 	document.getElementById("recommend_view_song_name").innerHTML = language["recommend_view"]["song_name"];
@@ -48,9 +51,5 @@ function recommend_transform(json_str){
 	document.getElementById("recommend_view_reason").innerHTML = language["recommend_view"]["recommend_reason"];
 	document.getElementById("recommend_view_date").innerHTML = language["recommend_view"]["date"];
 	document.getElementById("recommend_view_operating").innerHTML = language["recommend_view"]["operating"];
-	var i = 1;
-	while (i <= recommend_count){
-		document.getElementById("recommend_view_download"+i).innerHTML = language["recommend_view"]["download"];
-		i = i + 1;
-	}
+	document.getElementById("recommend_view_download").innerHTML = language["recommend_view"]["download"];
 }

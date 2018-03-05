@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js"> <!--<![endif]-->
     <head>
-		<title>Slowlife</title>
+		<title>{% block title %}Slowlife{% endblock %}</title>
 
         <!-- meta -->
         <meta charset="utf-8">
@@ -36,7 +36,7 @@ h2{
             <div class="container">
                 <div class="row">
                     <div class="col-xs-6">
-						<div class="logo"><a  class="logo-text">Join Slowlife</a></div>
+						<div class="logo"><a id="base_title" class="logo-text">Join Slowlife</a></div>
                     </div>
                 </div>
             </div>            
@@ -47,7 +47,6 @@ h2{
         <section class="testimonial-area">
 			<!--<div class="container">-->
 			<div style={margin-top:20px;}>
-				<h2 id="music_title" class="test_block_title" style={color:#ffffff;}>Recommend Music</h2>
 				{% block content %}module content{% endblock %}
 			</div>
 		</section>

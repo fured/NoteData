@@ -37,6 +37,7 @@ def vue_test(request):
 	return render(request,"vue-test.html")
 
 def recommend_music(request):
+    current_lang = request.GET.get("lang")
     recommends = RecommendMusicTable.objects.all().values()
     recommends_list = []
     i = 0 
@@ -53,7 +54,7 @@ def recommend_music(request):
         recommends_list[len(recommends_list)-1]["recommend_reason"] = "fured favorite music"
         j = j + 1
     random.shuffle(recommends_list)
-    return render(request,"recommend_music_table.html",{"list":recommends_list})
+    return render(request,"recommend_music_table.html",{"list":recommends_list,"lang":current_lang})
 
 	
 def playlist(request):
@@ -116,3 +117,14 @@ def transform_language(request):
     reponse = '{"slogin":"'+data+'","language_data":'+lang_data_py+'}'
     return HttpResponse(reponse)
 
+def view_recommend_lang(request):
+    current_lang = request.GET.get("lang")
+    if current_lang == "zh":
+        with open("./fured/static/language/recommend_zh.json","r") as fd:
+            lang_str = fd.read()
+    else:
+        with open("./fured/static/language/recommend_en.json","r") as fd:
+            lang_str = fd.read()
+    lang_data_py =json.dumps(json.loads(lang_str)) 
+    reponse = '{"language_data":'+lang_data_py+'}'
+    return HttpResponse(reponse)

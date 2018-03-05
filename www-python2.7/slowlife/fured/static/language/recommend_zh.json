@@ -1,0 +1,25 @@
+{
+	"base_title":"加入我们",
+	"moudle_slogan":"推荐音乐",
+	"recommend_submit":{
+		"nick_name":"昵称",
+		"song_name":"歌曲名",
+		"recommend_reason":"推荐原因",
+		"song_type":{
+			"one":"其它",
+			"two":"摇滚",
+			"three":"节奏布鲁斯",
+			"four":"蓝调"
+		},
+		"submit":"推荐这歌"
+	},
+	"recommend_view":{
+		"song_name":"歌曲名",
+		"song_type":"歌曲类型",
+		"recommend_name":"推荐人",
+		"recommend_reason":"推荐原因",
+		"date":"推荐日期",
+		"operating":"操作",
+		"download":"下载"
+	}
+}

@@ -21,12 +21,13 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$',fured_views.index),
-    url(r'^view/recommend_music/',fured_views.recommend_music),
+    url(r'^view/recommend_music/$',fured_views.recommend_music),
     url(r'^view/music_recommend/submit',fured_views.recommend),
     url(r'^vue_test/',fured_views.vue_test),
     url(r'^music_player/play_list',fured_views.playlist),
     url(r'^music_recommend/submit',fured_views.recommend),
     url(r'^message/submit',fured_views.message),
     url(r'^language/transform/$',fured_views.transform_language),
+    url(r'^recommend/language/$',fured_views.view_recommend_lang),
 ]
 urlpatterns += staticfiles_urlpatterns()

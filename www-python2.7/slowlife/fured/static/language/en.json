@@ -36,7 +36,8 @@
 								"two":"Write down your favorite song name",
 								"three":"Favorite reason or anything"
 						},
-						"submit":"Send"
+						"submit":"Send",
+						"view":"see all recommend"
 				},
 				"music_player":{
 						"slogan":"Recommend by Fured",

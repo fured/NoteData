@@ -1,0 +1,25 @@
+{
+	"base_title":"Join Slowlife",
+	"moudle_slogan":"Recommend Music",
+	"recommend_submit":{
+		"nick_name":"nick name",
+		"song_name":"song name",
+		"recommend_reason":"recommend reason",
+		"song_type":{
+			"one":"Other",
+			"two":"Rock",
+			"three":"R&B",
+			"four":"Blue"
+		},
+		"submit":"recommend the song"
+	},
+	"recommend_view":{
+		"song_name":"Song name",
+		"song_type":"Song type",
+		"recommend_name":"Recommend name",
+		"recommend_reason":"Recommend reason",
+		"date":"Recommend date",
+		"operating":"Operating",
+		"download":"Download"
+	}
+}

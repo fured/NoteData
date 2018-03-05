@@ -36,7 +36,8 @@
 								"two":"写下你最爱的歌名",
 								"three":"喜爱的理由或任何文字"
 						},
-						"submit":"发送"
+						"submit":"发送",
+						"view":"所有推荐"
 				},
 				"music_player":{
 						"slogan":"fured分享",

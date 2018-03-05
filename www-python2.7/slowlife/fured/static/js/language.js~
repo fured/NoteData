@@ -12,14 +12,7 @@ function change_language(){
 }
 
 function view_all_recommend(){
-//	window.location.href="/view/recommend_music"
-	//	window.open('/view/recommend_music');
-	//	window.history.back(-1);
-    if (lang == "zh"){	
-		window.open('/view/recommend_music/?lang='+lang);
-	}else{
-		window.open('/view/recommend_music/');
-	}
+	window.open('/view/recommend_music/?lang='+lang);
 }
 
 function transform(json_str){
