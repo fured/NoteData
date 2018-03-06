@@ -46,7 +46,8 @@
 	},
 	"book_bar":{
 			"title":"Book Bar",
-			"download_button":"Download"
+			"download_button":"Download",
+			"look_book":"Look Book"
 	},
 	"moive":{
 			"title":"Share Moive",

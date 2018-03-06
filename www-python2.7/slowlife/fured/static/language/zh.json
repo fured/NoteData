@@ -46,7 +46,8 @@
 	},
 	"book_bar":{
 			"title":"书吧",
-			"download_button":"下载"
+			"download_button":"下载",
+			"look_book":"在线看"
 	},
 	"moive":{
 			"title":"分享视频",

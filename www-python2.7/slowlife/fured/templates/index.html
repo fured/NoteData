@@ -209,7 +209,9 @@
                             <figcaption>
 								<h3>《{{ i.book_name }}》</h3>
 								<span>{{ i.author_name }} [{{ i.author_contry }}]</span>
-								<a id="book_bar_download_button{{ forloop.counter }}" href="{{ i.book_download_url }}" target="_blank" class="button" >Download</a>
+								<div>
+									<button id="book_bar_look_button{{ forloop.counter }}" onclick="view_book('{{ i.book_name }}')" target="_blank" class="look_book">Look Book</button>
+								<a id="book_bar_download_button{{ forloop.counter }}" href="{{ i.book_download_url }}" target="_blank" class="button" >Download</a></div>
 	<script type="text/javascript">
 		var book_count={{ forloop.counter }};
         console.log("book_count:"+book_count)

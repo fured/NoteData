@@ -22,6 +22,14 @@ function view_all_recommend(){
 	}
 }
 
+function view_book(file){
+	console.log(lang)
+	if (lang == "zh"){
+		window.open('/view/book/?lang='+lang+"&file="+file+".pdf");
+	}else{
+		window.open('/view/book/?file='+file+".pdf");
+	}
+}
 function transform(json_str){
 	var language = JSON.parse(json_str);
 	console.log(language["language_data"]["web_theme"])
@@ -57,6 +65,7 @@ function transform(json_str){
 	var i = 1;
 	while (i <= book_count){
 		document.getElementById("book_bar_download_button"+i).innerHTML = language["language_data"]["book_bar"]["download_button"];
+		document.getElementById("book_bar_look_button"+i).innerHTML = language["language_data"]["book_bar"]["look_book"];
 		i = i + 1;
 	}
 	document.getElementById("moive_title").innerHTML = language["language_data"]["moive"]["title"]

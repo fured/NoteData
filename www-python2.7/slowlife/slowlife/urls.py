@@ -17,6 +17,7 @@ from django.conf.urls import url
 from django.contrib import admin
 from fured import views as fured_views
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+from django.views.generic.base import RedirectView
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
@@ -29,5 +30,7 @@ urlpatterns = [
     url(r'^message/submit',fured_views.message),
     url(r'^language/transform/$',fured_views.transform_language),
     url(r'^recommend/language/$',fured_views.view_recommend_lang),
+    url(r'^favicon.ico$',RedirectView.as_view(url=r'static/images/favicon.ico')),
+    url(r'^view/book/$',fured_views.reader),
 ]
 urlpatterns += staticfiles_urlpatterns()
