@@ -1669,7 +1669,7 @@ var NetworkManager = (function NetworkManagerClosure() {
       var pendingRequest = this.pendingRequests[xhrId] = {
         xhr: xhr
       };
-
+      console.log(this.url);
       xhr.open('GET', this.url);
       xhr.withCredentials = this.withCredentials;
       for (var property in this.httpHeaders) {
@@ -1714,7 +1714,7 @@ var NetworkManager = (function NetworkManagerClosure() {
       pendingRequest.onDone = args.onDone;
       pendingRequest.onError = args.onError;
       pendingRequest.onProgress = args.onProgress;
-
+      console.log("bbbbbbbbbb")
       xhr.send(null);
 
       return xhrId;
