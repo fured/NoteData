@@ -34,6 +34,9 @@ create table recommend_music_table(
     `create_at` real not null,
 	primary key (`id`)
 )engine=innodb default charset=utf8;
+alter table play_music_table add updatedTime TIMESTAMP not NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;
+alter table play_music_table add createdTime TIMESTAMP not NULL DEFAULT CURRENT_TIMESTAMP;
+
 
 create table book_table (
     `id` int auto_increment,

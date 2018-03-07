@@ -56,6 +56,8 @@ def recommend_music(request):
     while j < len(author_recommend):
         recommends_list.append(author_recommend[j])
         recommends_list[len(recommends_list)-1]["create_at"] = time.strftime("%Y-%m-%d %H:%M:%S",time.localtime(int(time.time())))
+        #print author_recommend[j]["create_at"]
+        #recommends_list[len(recommends_list)-1]["create_at"] = time.strftime("%Y-%m-%d %H:%M:%S",time.strptime(author_recommend[j]["create_at"],"%Y-%m-%d %H:%M:%S"))
         recommends_list[len(recommends_list)-1]["recommend_name"] = "fured"
         recommends_list[len(recommends_list)-1]["recommend_reason"] = "fured favorite music"
         j = j + 1
