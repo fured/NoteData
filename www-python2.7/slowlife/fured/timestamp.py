@@ -16,7 +16,7 @@ class UnixTimestampField(models.DateTimeField):
         # cheat a little:
         self.blank, self.isnull = blank, null
         self.null = True # To prevent the framework from shoving in "not null".
-        
+    """      
     def db_type(self):
         typ=['TIMESTAMP']
         # See above!
@@ -25,16 +25,19 @@ class UnixTimestampField(models.DateTimeField):
         if self.auto_created:
             typ += ['default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP']
         return ' '.join(typ)
-    
+    """
     def to_python(self, value):
+        print ("aaaaaaaaaaaaa"+value)
         return datetime.fromtimestamp(value)
 
     def get_prep_value(self, value):
         if value==None:
             return None
+        print ("bbbbbbbbbbbbb"+value)
         return mktime(value.timetuple())
 
     def get_db_prep_value(self, value):
+        print ("ccccccc"+value)
         if value==None:
             return None
         return value

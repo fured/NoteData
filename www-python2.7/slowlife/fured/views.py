@@ -53,11 +53,12 @@ def recommend_music(request):
         i = i + 1
     author_recommend = PlayMusicTable.objects.all().values()
     j = 0
+   # print (type(author_recommend[j]["createdTime"]))
     while j < len(author_recommend):
         recommends_list.append(author_recommend[j])
-        recommends_list[len(recommends_list)-1]["create_at"] = time.strftime("%Y-%m-%d %H:%M:%S",time.localtime(int(time.time())))
+       # recommends_list[len(recommends_list)-1]["create_at"] = time.strftime("%Y-%m-%d %H:%M:%S",time.localtime(int(time.time())))
         #print author_recommend[j]["create_at"]
-        #recommends_list[len(recommends_list)-1]["create_at"] = time.strftime("%Y-%m-%d %H:%M:%S",time.strptime(author_recommend[j]["create_at"],"%Y-%m-%d %H:%M:%S"))
+        recommends_list[len(recommends_list)-1]["create_at"] = author_recommend[j]["createdTime"].strftime("%Y-%m-%d %H:%M:%S")
         recommends_list[len(recommends_list)-1]["recommend_name"] = "fured"
         recommends_list[len(recommends_list)-1]["recommend_reason"] = "fured favorite music"
         j = j + 1
