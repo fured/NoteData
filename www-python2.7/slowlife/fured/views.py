@@ -39,6 +39,10 @@ def reader(request):
         current_lang  = current_lang+"-CN"
     return render(request,"demo.html",{"lang":current_lang})
 
+def video_player(request):
+    return render(request,"view-movie.html")
+
+
 def vue_test(request):
 	return render(request,"vue-test.html")
 
