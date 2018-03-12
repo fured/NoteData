@@ -37,6 +37,14 @@ create table recommend_music_table(
 alter table play_music_table add updatedTime TIMESTAMP not NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;
 alter table play_music_table add createdTime TIMESTAMP not NULL DEFAULT CURRENT_TIMESTAMP;
 
+create table user_table(
+    `id` int auto_increment,
+    `user_name` varchar(50) not null,
+    `user_email` varchar(50) not null,
+    `user_password` varchar(50) not null,
+    `createdTime` TIMESTAMP not NULL DEFAULT CURRENT_TIMESTAMP,
+	primary key (`id`)
+)engine=innodb default charset=utf8;
 
 create table book_table (
     `id` int auto_increment,

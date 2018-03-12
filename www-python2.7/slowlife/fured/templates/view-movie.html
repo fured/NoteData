@@ -6,13 +6,15 @@
     <link rel="stylesheet" href="/static/css/video-player/videoCT.css">
     <link rel="stylesheet" href="/static/css/video-player/view-moive.css">
 <link rel="stylesheet" href="/static/css/video-player/comment.css">
-<link rel="stylesheet" href="/static/css/video-player/bootstrap.css">
+<!--<link rel="stylesheet" href="/static/css/video-player/bootstrap.css">-->
 <link rel="stylesheet" href="/static/css/style.css">
 <link rel="stylesheet" href="/static/css/bootstrap.min.css">
-
+<script type="text/javascript" src="/static/js/vue.min.js"></script>
+<script type="text/javascript" src="/static/js/sha1.min.js"></script>
     <script type='text/javascript' src="/static/js/video-player/jquery.min.js"></script>
+    <script type='text/javascript' src="/static/js/video-player/bootstrap.min.js"></script>
     <script type='text/javascript' src="/static/js/video-player/videoCT.js"></script>
-    <script type='text/javascript' src="/static/js/video-player/view-moive.js"></script>
+	<script type='text/javascript' src="/static/js/video-player/view-moive.js"></script>
 <style type="text/css">
 
 .picTab{height:100%;border:2px solid #000; margin-left:60%;overflow:hidden;
@@ -34,6 +36,17 @@ h3,ul,li{margin:0;padding:0; list-style:none;}
 .scroltit .updown{float:right; width:32px; height:22px; margin-left:4px}
 #but_up{ background:url(/static/images/video-player/up.gif) no-repeat 0 0; text-indent:-9999px}
 #but_down{ background:url(/static/images/video-player/down.gif) no-repeat 0 0; text-indent:-9999px}
+
+@media screen and (min-height:400px){
+      .responsive
+      {
+        top:35%;
+      }
+    }
+
+.input-width{
+	width:350px;
+}
 </style>
 
 
@@ -51,18 +64,149 @@ $(document).ready(function(){
                              <div class="col-xs-6">
                                  <div class="logo"><a data-l10n-id="base_title" class="logo-text">Join Slowlife</a></div>
                             </div>
-                         
-                  
-					     <div class="register">
-                             <a>login</a>
-<span></span>
-<a>register</a>
+                                         
+					     	<div class="register">
+                            	<a  data-toggle="modal" data-target="#myModal1">login</button>
+								<span></span>
+								<a data-toggle="modal" data-target="#myModal2">register</a>
+							</div>
+        				 </div>
+	 	</div>
+   </div>
+<!--   <h2>创建模态框（Modal）</h2>
+ 按钮触发模态框 -->
+<!--<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+	开始演示模态框
+</button>-->
+<!-- 模态框（Modal） -->
+<div class="modal fade responsive" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog input-width">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					&times;
+				</button>
+				<h4 class="modal-title" id="myModalLabel">
+				Please Login
+				</h4>
+			</div>
+			<div class="modal-body">
+				<input type="text" v-model.trim="confirm.aaa" placeholder="name or email">
+			</div>
+			<div class="modal-body">
+				<input type="password" v-model.trim="confirm.password" maxlength="50" placeholder="password">
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">cancel
+				</button>
+				<button type="button" class="btn btn-primary" v-on:click="confirm">
+					login
+				</button>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal -->
 </div>
-                         </div>
-		 </div>
-              </div>
-      <div class="playersection">
- <div id="video-player">
+	<script type="text/javascript">
+		console.log("this")
+		new Vue({
+		el:"#myModal1",
+		data:{
+		},
+		methods:{
+			confirm:function(){
+				console.log("this2")
+				if (! this.confirm.aaa){
+					return alert("name or email is null!");
+				}
+				if (! this.confirm.password){
+					return alert("password is null!")
+				}
+			}
+		}
+		});
+	</script>
+<div class="modal fade responsive" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog input-width">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                Please Register
+                </h4>
+            </div>
+            <div class="modal-body">
+                <input type="text" maxlength="50" v-model.trim="confirm2.aaa" placeholder="name">
+            </div>
+			<div class="modal-body">
+                <input type="text" maxlength="50" v-model.trim="confirm2.email" placeholder="email">
+            </div>
+            <div class="modal-body">
+                <input type="password" maxlength="50" v-model.trim="confirm2.password1" placeholder="password">
+            </div>
+			<div class="modal-body">
+                <input type="password" maxlength="50" v-model.trim="confirm2.password2" placeholder="confirm password">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">cancel
+                </button>
+                <button type="button" class="btn btn-primary" v-on:click="confirm2"> 
+                    register
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+<script type="text/javascript">
+	function validateEmail(email) {
+    var re = /^[a-z0-9\.\-\_]+\@[a-z0-9\-\_]+(\.[a-z0-9\-\_]+){1,4}$/;
+    return re.test(email.toLowerCase());
+}
+        new Vue({
+        el:"#myModal2",
+        data:{
+        },
+        methods:{
+            confirm2:function(){
+                if (! this.confirm2.aaa){
+                    return alert("name or email is null!");
+                }
+                if (! this.confirm2.email){
+                    return alert("email is null!")
+                }
+				if (! validateEmail(this.confirm2.email.toLowerCase())){
+					return alert("Bad email address format！")
+				}
+				if (! this.confirm2.password1){
+                    return alert("password is null!")
+                }
+				if (this.confirm2.password1.length < 6 ){
+					return alert("password's length less than six!")
+				}
+				if (this.confirm2.password1 !== this.confirm2.password2){
+					return alert("The passwod entered twice is different!")
+				}
+		 		var register_url = "/user/register"
+				var register_request = new XMLHttpRequest();
+				register_request.onload = function(){
+					if (register_request.status == 200){
+						alert(register.responseText)
+					}else{
+						alert("sorry!register failed!")
+					}
+				};
+				var register_data = '{"name":"'+this.confirm2.aaa+'","email":"'+this.confirm2.email+'","password":"'+CryptoJS.SHA1(this.confirm2.password1).toString()+'"}'
+				register_request.open("POST",register_url,true);
+				register_request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+				register_request.send(register_data);
+
+            }
+        }
+        });
+    </script>
+  <div class="playersection">
+	<div id="video-player">
         <video width="100%" height="100%" id="video1"></video>
   </div>
 <DIV class="picTab">
@@ -230,7 +374,6 @@ $(document).ready(function(){
 	</div>
 </div>
 <script type="text/javascript" src="/static/js/video-player/jquery.comment.js" ></script>
-<script type="text/javascript" src="/static/js/video-player/bootstrap.min.js"></script>
 <script type="text/javascript">
 	//初始化数据
 	var arr = [

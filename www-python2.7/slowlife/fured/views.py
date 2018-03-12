@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 import pdb,random,json,time
 from django.shortcuts import render
 from django.http import HttpResponse
-from fured.models import PlayMusicTable,RecommendMusicTable,BookTable,ShareMoiveTable,CommentTable
+from fured.models import PlayMusicTable,RecommendMusicTable,BookTable,ShareMoiveTable,CommentTable,UserTable
 # Create your views here.
 def index(request):
     book = BookTable.objects.all().values()
@@ -33,6 +33,14 @@ def index(request):
 def two(request):
     return render(request,"base.html")
 
+def modal(request):
+    return render(request,"modal.html")
+
+def register(request):
+    data = request.body
+    #data_py = json.loads(data) 
+    print data
+    pdb.set_trace()
 def reader(request):
     current_lang = request.GET.get("lang")
     if current_lang == "zh":

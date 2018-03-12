@@ -22,6 +22,8 @@ from django.views.generic.base import RedirectView
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$',fured_views.index),
+    url(r'^modal',fured_views.modal),
+    url(r'^user/register',fured_views.register),
     url(r'^view/recommend_music/$',fured_views.recommend_music),
     url(r'^view/music_recommend/submit',fured_views.recommend),
     url(r'^vue_test/',fured_views.vue_test),
