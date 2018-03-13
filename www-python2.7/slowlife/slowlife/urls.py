@@ -28,6 +28,7 @@ urlpatterns = [
     url(r'^view/recommend_music/$',fured_views.recommend_music),
     url(r'^view/music_recommend/submit',fured_views.recommend),
     url(r'^vue_test/',fured_views.vue_test),
+    url(r'^view_test/',fured_views.view_test),
     url(r'^music_player/play_list',fured_views.playlist),
     url(r'^music_recommend/submit',fured_views.recommend),
     url(r'^message/submit',fured_views.message),

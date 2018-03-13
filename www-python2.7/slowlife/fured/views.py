@@ -30,8 +30,8 @@ def index(request):
     #return render(request,'index.html',{"show_book":show_book,"show_movie":share_movie,"book_count":len(show_book),"moive_count":len(share_movie)})
     return render(request,'index.html',{"show_book":show_book,"show_movie":share_movie,"play_list":json.dumps(song_list)})
 
-def two(request):
-    return render(request,"base.html")
+def view_test(request):
+    return render(request,"view-test.html")
 
 def modal(request):
     return render(request,"modal.html")
