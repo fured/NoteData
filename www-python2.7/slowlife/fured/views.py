@@ -38,9 +38,26 @@ def modal(request):
 
 def register(request):
     data = request.body
-    #data_py = json.loads(data) 
+    data_py = json.loads(data) 
+    user = UserTable()
+    user.user_name = data_py["name"]
+    user.user_email = data_py["email"]
+    user.user_password = data_py["password"]
+    user.save()
     print data
-    pdb.set_trace()
+    return HttpResponse("Register success!")
+
+def login(request):
+    data = request.body
+    data_py = json.loads(data)
+    name = data_py["name"]
+    password = data_py["password"]
+    user = UserTable.objects.filter(user_name=name)
+    if len(user) < 1:
+        return HttpResponse("name is not exist!")
+    if user[0].user_password == password:
+        return HttpResponse("welcome "+data_py["name"])
+
 def reader(request):
     current_lang = request.GET.get("lang")
     if current_lang == "zh":
@@ -52,7 +69,7 @@ def video_player(request):
 
 
 def vue_test(request):
-	return render(request,"vue-test.html")
+    return render(request,"vue-test.html")
 
 def recommend_music(request):
     current_lang = request.GET.get("lang")

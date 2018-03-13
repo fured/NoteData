@@ -45,7 +45,7 @@ create table user_table(
     `createdTime` TIMESTAMP not NULL DEFAULT CURRENT_TIMESTAMP,
 	primary key (`id`)
 )engine=innodb default charset=utf8;
-
+alter table user_table add unique(user_name);
 create table book_table (
     `id` int auto_increment,
     `book_name` varchar(50) not null,
