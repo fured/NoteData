@@ -130,11 +130,13 @@ $(document).ready(function(){
 						}
 						$('#myModal1').modal('hide')
 						document.getElementById("register").innerHTML = login_request.responseText
+						setCookie("user_name",user_name,4);
 						return alert(login_request.responseText)
 					}else{
 						return alert("name or password is error!")
 					}
 				}
+				var user_name = this.confirm.aaa;
 				login_data = '{"name":"'+this.confirm.aaa+'","password":"'+CryptoJS.SHA1(this.confirm.password).toString()+'"}'
 				login_request.open("POST",login_url,true)
                 login_request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
@@ -365,7 +367,7 @@ $(document).ready(function(){
 <div class="commentsection">
 	<div class="commentbox">
 		<textarea cols="80" rows="50" placeholder="来说几句吧......" class="mytextarea" id="content"></textarea>
-		<div class="btn btn-info pull-right" id="comment">评论</div>
+		<div class="btn btn-info pull-right" id="comment" type="button" onclick="submit_comment()">评论</div>
 	</div>
 	<div class="comment-list">
 	<!-- 
@@ -397,9 +399,17 @@ $(document).ready(function(){
 </div>
 <script type="text/javascript" src="/static/js/video-player/jquery.comment.js" ></script>
 <script type="text/javascript">
+	var url = "/movie_comment/init/"
+	var request = new XMLHttpRequest();
+	request.onload = function(){
+		if (request.status == 200){
+			console.log(request.responseText)
+		}
+		request.open('GET',url,true)
+		request.send()
+	}
 	//初始化数据
 	var arr = [
-		{id:1,img:"/static/images/img.jpg",replyName:"帅大叔",beReplyName:"匿名",content:"同学聚会，看到当年追我的屌丝开着宝马车带着他老婆来了，他老婆是我隔壁宿舍的同班同学，心里后悔极了。",time:"2017-10-17 11:42:53",address:"深圳",osname:"",browse:"谷歌",replyBody:[]},
 		{id:2,img:"/static/images/img.jpg",replyName:"匿名",beReplyName:"",content:"到菜市场买菜，看到一个孩子在看摊，我问：“一只鸡多少钱？” 那孩子回答：“23。” 我又问：“两只鸡多少钱？” 孩子愣了一下，一时间没算过来，急中生智大吼一声：“一次只能买一只！”",time:"2017-10-17 11:42:53",address:"深圳",osname:"",browse:"谷歌",replyBody:[{id:3,img:"",replyName:"帅大叔",beReplyName:"匿名",content:"来啊，我们一起吃鸡",time:"2017-10-17 11:42:53",address:"",osname:"",browse:"谷歌"}]},
 		{id:3,img:"/static/images/img.jpg",replyName:"帅大叔",beReplyName:"匿名",content:"同学聚会，看到当年追我的屌丝开着宝马车带着他老婆来了，他老婆是我隔壁宿舍的同班同学，心里后悔极了。",time:"2017-10-17 11:42:53",address:"深圳",osname:"win10",browse:"谷歌",replyBody:[]}
 	];

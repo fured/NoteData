@@ -1,6 +1,49 @@
 /**
  * Created by Administrator on 2017/4/28.
  */
+
+function setCookie(name,value,expiredays){
+	var exdate = new Date;
+	exdate.setDate(exdate.getDate()+expiredays)
+	document.cookie = name+"="+escape(value)+((expiredays==null)?"":";expires="+exdate.toGMTString())
+}
+
+function getCookie(name){
+	if (document.cookie.length > 0){
+		start=document.cookie.indexOf(name + "=")
+		if (start!=-1){ 
+			start=start + name.length+1 
+			end=document.cookie.indexOf(";",start)
+			if (end==-1) end=document.cookie.length
+			return unescape(document.cookie.substring(start,end))
+		 } 
+	 }
+	return false
+}
+
+function submit_comment(){
+	console.log("submit comment to server!")
+	var url ="/movie_comment/submit/"
+	var request =new XMLHttpRequest();
+	request.onload = function(){
+		if (request.status == 200){
+			alert ("success!")
+		}
+	}
+	var content = document.getElementById('content').value;
+	console.log(content)
+	var user_name = getCookie("user_name");
+	if (user_name == false){
+		alert("please login for release comment!")
+		return 
+	}
+	var address = "default"
+	var data =' {"user_name":"'+user_name+'","address":"'+address+'","content":"'+content+'"}';
+	request.open("POST",url,true)
+	request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+	request.send(data)
+}
+
 'user strict';
 
 window.onload = function () {
@@ -42,4 +85,6 @@ window.onload = function () {
     $('#video1').bind('ended', function() {
         console.log('弹幕json数据：\n'+ video.comment());              //获取弹幕json数据
     });
+
+	//init comment list
 }

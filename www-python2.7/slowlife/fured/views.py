@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 import pdb,random,json,time
 from django.shortcuts import render
 from django.http import HttpResponse
-from fured.models import PlayMusicTable,RecommendMusicTable,BookTable,ShareMoiveTable,CommentTable,UserTable
+from fured.models import PlayMusicTable,RecommendMusicTable,BookTable,ShareMoiveTable,CommentTable,UserTable,CommentMovieTable
 # Create your views here.
 def index(request):
     book = BookTable.objects.all().values()
@@ -125,6 +125,25 @@ def recommend(request):
 	print reponse
 	return HttpResponse(reponse)
 
+def movie_comment_submit(request):
+    data = request.body
+    data_py = json.loads(data)
+    comment = CommentMovieTable()
+    comment.user_name = data_py["user_name"]
+    comment.content = data_py["content"]
+    comment.user_address = data_py["address"]
+    comment.user_img_path = "/static/img.jpg"
+    comment.save()
+    return HttpResponse("success!")
+
+def movie_comment_init(request):
+    comments = CommentMovieTable.objects.all().values()
+    comments_list = []
+    i = 0
+    while i < len(comments):
+        comments_list.append(comments[i])
+        i = i+1
+    return HttpResponse(comments_list)
 def message(request):
     data = request.body
     data_py = json.loads(data)

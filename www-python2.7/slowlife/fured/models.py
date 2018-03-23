@@ -43,6 +43,16 @@ class DjangoContentType(models.Model):
         managed = False
         db_table = 'django_content_type'
 
+class CommentMovieTable(models.Model):
+    user_name = models.CharField(max_length=50)
+    content = models.CharField(max_length=300)
+    user_img_path = models.CharField(max_length=100)
+    user_address = models.CharField(max_length=100)
+    
+    class Meta:
+        managed = False
+        db_table = "comment_movie_table"
+
 
 class DjangoMigrations(models.Model):
     app = models.CharField(max_length=255)
