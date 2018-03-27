@@ -399,15 +399,23 @@ $(document).ready(function(){
 </div>
 <script type="text/javascript" src="/static/js/video-player/jquery.comment.js" ></script>
 <script type="text/javascript">
+	console.log("init comment data!")
 	var url = "/movie_comment/init/"
 	var request = new XMLHttpRequest();
 	request.onload = function(){
 		if (request.status == 200){
-			console.log(request.responseText)
+			var arr = []
+			var json_data = JSON.parse(request.responseText)
+			console.log(json_data.length)
+			for (var i = 0;i < json_data.length;i++){
+				arr[i] = json_data[i]
+			}
+			console.log(arr)
+			console.log(typeof(request.responseText))
 		}
-		request.open('GET',url,true)
-		request.send()
 	}
+	request.open('GET',url,true)
+	request.send()
 	//初始化数据
 	var arr = [
 		{id:2,img:"/static/images/img.jpg",replyName:"匿名",beReplyName:"",content:"到菜市场买菜，看到一个孩子在看摊，我问：“一只鸡多少钱？” 那孩子回答：“23。” 我又问：“两只鸡多少钱？” 孩子愣了一下，一时间没算过来，急中生智大吼一声：“一次只能买一只！”",time:"2017-10-17 11:42:53",address:"深圳",osname:"",browse:"谷歌",replyBody:[{id:3,img:"",replyName:"帅大叔",beReplyName:"匿名",content:"来啊，我们一起吃鸡",time:"2017-10-17 11:42:53",address:"",osname:"",browse:"谷歌"}]},

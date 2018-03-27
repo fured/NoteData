@@ -48,7 +48,11 @@ class CommentMovieTable(models.Model):
     content = models.CharField(max_length=300)
     user_img_path = models.CharField(max_length=100)
     user_address = models.CharField(max_length=100)
-    
+    BeReplyName = models.CharField(max_length=50)
+    OSName = models.CharField(max_length=50)
+    BrowerName = models.CharField(max_length=50)
+    ReplyBody = models.CharField(max_length=50)
+
     class Meta:
         managed = False
         db_table = "comment_movie_table"

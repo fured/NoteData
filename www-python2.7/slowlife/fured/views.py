@@ -143,7 +143,8 @@ def movie_comment_init(request):
     while i < len(comments):
         comments_list.append(comments[i])
         i = i+1
-    return HttpResponse(comments_list)
+    return HttpResponse(json.dumps(comments_list))
+
 def message(request):
     data = request.body
     data_py = json.loads(data)

@@ -85,6 +85,4 @@ window.onload = function () {
     $('#video1').bind('ended', function() {
         console.log('弹幕json数据：\n'+ video.comment());              //获取弹幕json数据
     });
-
-	//init comment list
-}
+}  

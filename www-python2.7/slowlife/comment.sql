@@ -24,13 +24,17 @@ DROP TABLE IF EXISTS `comment_movie_table`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `comment_movie_table` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `user_name` varchar(50) NOT NULL,
+  `user_name` varchar(50) NOT NULL COMMENT 'people who publish comment',
   `content` varchar(300) NOT NULL,
   `user_img_path` varchar(100) NOT NULL,
   `user_address` varchar(100) NOT NULL,
   `createdTime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `BeReplyName` varchar(50) DEFAULT NULL COMMENT 'who be replay use the comment这条评论是用来回复谁的',
+  `OSName` varchar(50) DEFAULT 'windows',
+  `BrowerName` varchar(50) DEFAULT 'google',
+  `ReplyBody` varchar(50) DEFAULT NULL COMMENT 'this is some comment that be used to replay the comment',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -39,7 +43,7 @@ CREATE TABLE `comment_movie_table` (
 
 LOCK TABLES `comment_movie_table` WRITE;
 /*!40000 ALTER TABLE `comment_movie_table` DISABLE KEYS */;
-INSERT INTO `comment_movie_table` VALUES (1,'test','wqeqweqwed','/static/img.jpg','default','2018-03-23 09:41:46'),(2,'test2','this movie is very nice!','/static/img.jpg','default','2018-03-23 09:43:12'),(3,'fured','同学聚会，看到当年追我的屌丝开着宝马车带着他老婆来了，他老婆是我隔壁宿舍的同班同学，心里后悔极了。','/static/img.jpg','default','2018-03-23 09:44:50'),(4,'fured','同学聚会，看到当年追我的屌丝开着宝马车带着他老婆来了，他老婆是我隔壁宿舍的同班同学，心里后悔极了。','/static/img.jpg','default','2018-03-23 09:50:18'),(5,'fured','同学聚会，看到当年追我的屌丝开着宝马车带着他老婆来了，他老婆是我隔壁宿舍的同班同学，心里后悔极了。','/static/img.jpg','default','2018-03-23 09:53:15'),(6,'fured','同学聚会，看到当年追我的屌丝开着宝马车带着他老婆来了，他老婆是我隔壁宿舍的同班同学，心里后悔极了。','/static/img.jpg','default','2018-03-23 09:53:34'),(7,'fured','同学聚会，看到当年追我的屌丝开着宝马车带着他老婆来了，他老婆是我隔壁宿舍的同班同学，心里后悔极了。','/static/img.jpg','default','2018-03-23 10:07:54');
+INSERT INTO `comment_movie_table` VALUES (1,'test','wqeqweqwed','/static/img.jpg','default','2018-03-23 09:41:46',NULL,'windows','google',NULL),(2,'test2','this movie is very nice!','/static/img.jpg','default','2018-03-23 09:43:12',NULL,'windows','google',NULL),(3,'fured','同学聚会，看到当年追我的屌丝开着宝马车带着他老婆来了，他老婆是我隔壁宿舍的同班同学，心里后悔极了。','/static/img.jpg','default','2018-03-23 09:44:50',NULL,'windows','google',NULL),(4,'fured','同学聚会，看到当年追我的屌丝开着宝马车带着他老婆来了，他老婆是我隔壁宿舍的同班同学，心里后悔极了。','/static/img.jpg','default','2018-03-23 09:50:18',NULL,'windows','google',NULL),(5,'fured','同学聚会，看到当年追我的屌丝开着宝马车带着他老婆来了，他老婆是我隔壁宿舍的同班同学，心里后悔极了。','/static/img.jpg','default','2018-03-23 09:53:15',NULL,'windows','google',NULL),(6,'fured','同学聚会，看到当年追我的屌丝开着宝马车带着他老婆来了，他老婆是我隔壁宿舍的同班同学，心里后悔极了。','/static/img.jpg','default','2018-03-23 09:53:34',NULL,'windows','google',NULL),(7,'fured','同学聚会，看到当年追我的屌丝开着宝马车带着他老婆来了，他老婆是我隔壁宿舍的同班同学，心里后悔极了。','/static/img.jpg','default','2018-03-23 10:07:54',NULL,'windows','google',NULL),(8,'fured','同学聚会，看到当年追我的屌丝开着宝马车带着他老婆来了，他老婆是我隔壁宿舍的同班同学，心里后悔极了。','/static/img.jpg','default','2018-03-26 01:19:44',NULL,'windows','google',NULL);
 /*!40000 ALTER TABLE `comment_movie_table` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +56,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-03-23 18:09:39
+-- Dump completed on 2018-03-27 17:07:25
