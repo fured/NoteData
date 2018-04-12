@@ -6,6 +6,8 @@ from django.http import HttpResponse
 from fured.models import PlayMusicTable,RecommendMusicTable,BookTable,ShareMoiveTable,CommentTable,UserTable,CommentMovieTable
 # Create your views here.
 def index(request):
+    pdb.set_trace()
+    print request.META["REMOTE_HOST"];
     book = BookTable.objects.all().values()
     show_book = []
     i = 0
