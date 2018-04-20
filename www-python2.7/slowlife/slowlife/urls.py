@@ -36,7 +36,7 @@ urlpatterns = [
     url(r'^recommend/language/$',fured_views.view_recommend_lang),
     url(r'^favicon.ico$',RedirectView.as_view(url=r'static/images/favicon.ico')),
     url(r'^view/book/$',fured_views.reader),
-    url(r'^view/moive/$',fured_views.video_player),
+    url(r'^view/movie/$',fured_views.video_player),
     url(r'^movie_comment/submit/$',fured_views.movie_comment_submit),
     url(r'^movie_comment/init/$',fured_views.movie_comment_init),
 ]
